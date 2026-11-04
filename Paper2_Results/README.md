@@ -70,4 +70,4 @@ Files per run (`<run>` = e.g. `Run4_onlyconsistent_tier3`): `<run>.xlsx` (kept B
 
 ## Graph instance
 
-Instance **LiverDiseaseDB**, database `neo4j`, Neo4j 2026.09.0 Enterprise.
+Instance **LiverDiseaseDB**, database `neo4j`, Neo4j 2026.10.1 Enterprise. This database was created on 29 October 2026; graph-preparation steps 0.4 and 0.5 (21 October 2026) were written to the earlier instance, which ran Neo4j 2026.09.0. Every analysis step above, steps 0.6–0.8 and the final graph check ran on 2026.10.1.
