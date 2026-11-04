@@ -1,0 +1,12 @@
+group,direction,paper1_n,paper2_n,match
+fibrosis_only,all,2023,2023,True
+fibrosis_only,positive,1040,1040,True
+fibrosis_only,negative,983,983,True
+inflammation_only,all,2377,2377,True
+inflammation_only,positive,2042,2042,True
+inflammation_only,negative,335,335,True
+shared,all,1822,1822,True
+shared,positive (both up),1408,1408,True
+shared,negative (both down),384,384,True
+shared,"discordant (fib up, inf down)",0,0,True
+shared,"discordant (fib down, inf up)",30,30,True

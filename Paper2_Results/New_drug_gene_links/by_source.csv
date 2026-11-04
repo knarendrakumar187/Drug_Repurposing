@@ -1,0 +1,5 @@
+source,drug–gene pairs on our genes,already in graph,NEW pairs,NEW pairs with a medicine,found ONLY by this source
+GtoPdb,6471,734,5737,1703,4760
+DGIdb,19443,1528,17915,8885,16579
+ChEMBL,4755,1029,3726,3720,134
+OpenTargets,4629,1019,3610,3607,21

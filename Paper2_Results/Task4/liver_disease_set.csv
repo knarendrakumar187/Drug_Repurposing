@@ -1,0 +1,232 @@
+disease_id,disease_name,excluded_non_hepatic,fibrosis_type
+MONDO_0008966,Aagenaes syndrome,False,False
+EFO_0005676,Autoimmune Hepatitis,False,False
+EFO_1000123,Bile Duct Adenoma,False,False
+EFO_1000149,Calcifying Nested Epithelial Stromal Tumor of the Liver,False,False
+EFO_1000222,Ductal or Ductular Proliferation,False,False
+EFO_1001311,End Stage Liver Disease,False,False
+MONDO_0000286,Epstein-Barr virus hepatitis,False,False
+EFO_0009043,Familial porphyria cutanea tarda,False,False
+EFO_1000256,Fibrolamellar Carcinoma,False,False
+EFO_1000291,Hepatic Granuloma,False,False
+EFO_1001345,"Hepatitis, Alcoholic",False,False
+EFO_1000292,Hepatoblastoma,False,False
+EFO_1000293,Hepatoid Adenocarcinoma,False,False
+EFO_1001346,Hepatopulmonary Syndrome,False,False
+EFO_1001005,Klatskin's tumor,False,False
+EFO_1000322,Liver Cavernous Hemangioma,False,False
+EFO_1000323,Liver Diffuse Large B-Cell Lymphoma,False,False
+EFO_1000324,Liver Inflammatory Myofibroblastic Tumor,False,False
+EFO_1000325,Liver Neuroendocrine Tumor,False,False
+EFO_1001387,Peliosis Hepatis,False,False
+MONDO_0100370,acute hepatitis B virus infection,False,False
+MONDO_0013111,acute infantile liver failure due to synthesis defect of mtDNA-encoded proteins,False,True
+MONDO_0008294,acute intermittent porphyria,False,False
+MONDO_0019542,acute liver failure,False,True
+EFO_0007949,acute-on-chronic liver failure,False,True
+MONDO_0003549,adenosquamous bile duct carcinoma,False,False
+MONDO_0016216,adult hepatocellular carcinoma,False,False
+MONDO_0021104,alcoholic fatty liver disease,False,True
+EFO_1000802,alcoholic liver cirrhosis,False,True
+EFO_0008573,alcoholic liver disease,False,False
+MONDO_0000447,autosomal dominant polycystic liver disease,False,False
+MONDO_0019008,benign recurrent intrahepatic cholestasis,False,False
+MONDO_0009469,benign recurrent intrahepatic cholestasis type 1,False,False
+MONDO_0011559,benign recurrent intrahepatic cholestasis type 2,False,False
+MONDO_0003193,bile duct adenocarcinoma,False,False
+MONDO_0003059,bile duct cancer,False,False
+EFO_0005540,bile duct carcinoma,False,False
+MONDO_0000374,bile duct carcinoma in situ,False,False
+MONDO_0003420,bile duct cystadenoma,False,False
+MONDO_0021662,bile duct neoplasm,False,False
+MONDO_0003455,bile duct papillary neoplasm,False,False
+MONDO_0002862,bile duct sarcoma,False,False
+MONDO_0018535,biliary cystadenocarcinoma,False,False
+EFO_0004267,biliary liver cirrhosis,False,True
+MONDO_0003060,biliary tract cancer,False,False
+EFO_0003891,biliary tract neoplasm,False,False
+MONDO_0018531,carcinoma of liver and intrahepatic biliary tract,False,False
+EFO_0005221,cholangiocarcinoma,False,False
+MONDO_0031040,"cholestasis, progressive familial intrahepatic, 12",False,False
+MONDO_0014381,"cholestasis, progressive familial intrahepatic, 4",False,False
+MONDO_0030360,"cholestasis, progressive familial intrahepatic, 6",False,False
+MONDO_0030503,"cholestasis, progressive familial intrahepatic, 7, with or without hearing loss",False,False
+MONDO_0030505,"cholestasis, progressive familial intrahepatic, 8",False,False
+MONDO_0030800,"cholestasis, progressive familial intrahepatic, 9",False,False
+EFO_0700114,chronic hepatic porphyria,False,False
+EFO_0004239,chronic hepatitis B virus infection,False,False
+EFO_0004220,chronic hepatitis C virus infection,False,False
+MONDO_0100193,chronic liver failure,False,True
+EFO_0001422,cirrhosis of liver,False,True
+MONDO_0007329,"cirrhosis, familial",False,True
+EFO_0007210,clonorchiasis,False,False
+MONDO_0044791,combined hepatocellular carcinoma and cholangiocarcinoma,False,False
+EFO_1000876,common bile duct neoplasm,False,False
+EFO_1001505,cystic liver disease,False,False
+EFO_1000905,drug-induced hepatitis,False,False
+EFO_0004228,drug-induced liver injury,False,False
+MONDO_0017290,familial intrahepatic cholestasis,False,False
+EFO_0007268,fascioloidiasis,False,False
+MONDO_0004790,fatty liver disease,False,True
+MONDO_0018109,fulminant viral hepatitis,False,False
+MONDO_0010598,glycogen storage disease IXa1,False,False
+MONDO_0020693,glycogen storage disease due to liver phosphorylase kinase deficiency,False,False
+MONDO_0002605,hepatic angiomyolipoma,False,False
+EFO_0020920,hepatic lesion,False,False
+MONDO_0002520,hepatic porphyria,False,False
+EFO_0007302,hepatic tuberculosis,False,False
+MONDO_0002405,hepatic vascular disorder,False,False
+EFO_1000966,hepatic vein thrombosis,False,False
+MONDO_0019514,hepatic veno-occlusive disease,False,False
+MONDO_0009338,hepatic veno-occlusive disease-immunodeficiency syndrome,False,False
+EFO_0007305,hepatitis A virus infection,False,False
+EFO_0008503,hepatitis B virus induced hepatocellular carcinoma,False,False
+EFO_0004197,hepatitis B virus infection,False,False
+EFO_0005129,hepatitis C induced liver cirrhosis,False,True
+EFO_0008504,hepatitis C virus induced hepatocellular carcinoma,False,False
+EFO_0003047,hepatitis C virus infection,False,False
+EFO_0007304,hepatitis D virus infection,False,False
+EFO_0007303,hepatitis E virus infection,False,False
+EFO_0008505,hepatitis virus-related hepatocellular carcinoma,False,False
+EFO_0000762,hepatocellular adenoma,False,False
+EFO_0000182,hepatocellular carcinoma,False,False
+MONDO_0003243,hepatocellular clear cell carcinoma,False,False
+MONDO_0019799,hepatoerythropoietic porphyria,False,False
+MONDO_0001382,hepatorenal syndrome,False,False
+MONDO_0011497,hereditary North American Indian childhood cirrhosis,False,True
+MONDO_0007369,hereditary coproporphyria,False,False
+EFO_1001959,hilar cholangiocarcinoma,False,False
+MONDO_0013595,hyperbiliverdinemia,False,False
+MONDO_0000023,infantile liver failure,False,True
+MONDO_0024568,infantile liver failure syndrome 1,False,True
+MONDO_0014659,infantile liver failure syndrome 2,False,True
+MONDO_0003444,intrahepatic bile duct adenoma,False,False
+MONDO_0100132,intrahepatic bile duct adenosquamous carcinoma,False,False
+MONDO_0001487,intrahepatic bile duct cancer,False,False
+MONDO_0003979,intrahepatic bile duct cystadenoma,False,False
+EFO_1001961,intrahepatic cholangiocarcinoma,False,False
+MONDO_0700051,liver abscess (disease),False,False
+MONDO_0056815,liver adenosquamous carcinoma,False,False
+MONDO_0024477,liver and intrahepatic bile duct neoplasm,False,False
+MONDO_0002387,liver angiosarcoma,False,False
+MONDO_0002691,liver cancer,False,False
+MONDO_0004715,liver carcinoma in situ,False,False
+MONDO_0006267,liver cavernous hemangioma,False,False
+EFO_0001421,liver disease,False,False
+MONDO_0859273,"liver disease, severe congenital",False,False
+EFO_0007834,liver dysplastic nodule,False,False
+MONDO_0003866,liver extraskeletal osteosarcoma,False,False
+MONDO_0100192,liver failure,False,True
+MONDO_0004435,liver fibrosarcoma,False,False
+MONDO_0002404,liver hemangioma,False,False
+MONDO_0004726,liver inflammatory myofibroblastic tumor,False,False
+MONDO_0004723,liver leiomyoma,False,False
+MONDO_0003378,liver leiomyosarcoma,False,False
+MONDO_0000965,liver lipoma,False,False
+MONDO_0004695,liver lymphoma,False,False
+MONDO_0018308,liver mesenchymal hamartoma,False,False
+EFO_1001513,liver neoplasm,False,False
+MONDO_0015072,liver neuroendocrine carcinoma,False,False
+MONDO_0002849,liver rhabdomyosarcoma,False,False
+MONDO_0002397,liver sarcoma,False,False
+MONDO_0004705,liver solitary fibrous tumor,False,False
+MONDO_0011874,neonatal ichthyosis-sclerosing cholangitis syndrome,False,False
+EFO_0003095,non-alcoholic fatty liver disease,False,True
+EFO_1001249,non-alcoholic steatohepatitis,False,True
+MONDO_0018055,pediatric hepatocellular carcinoma,False,False
+EFO_1000750,perinatal jaundice due to hepatocellular damage,False,False
+MONDO_0008265,polycystic liver disease 1,False,False
+MONDO_0054743,polycystic liver disease 3 with or without kidney cysts,False,False
+MONDO_0044327,polycystic liver disease 4 with or without kidney cysts,False,False
+MONDO_0015104,porphyria cutanea tarda,False,False
+MONDO_0013000,porphyria due to ALA dehydratase deficiency,False,False
+EFO_0000666,portal hypertension,False,True
+EFO_1001486,primary biliary cirrhosis,False,True
+MONDO_0015762,progressive familial intrahepatic cholestasis,False,False
+MONDO_0008892,progressive familial intrahepatic cholestasis type 1,False,False
+MONDO_0011156,progressive familial intrahepatic cholestasis type 2,False,False
+MONDO_0011214,progressive familial intrahepatic cholestasis type 3,False,False
+EFO_1001836,pyogenic liver abscess,False,False
+EFO_0004268,sclerosing cholangitis,False,False
+EFO_1001487,secondary biliary cirrhosis,False,True
+MONDO_0004346,signet ring cell intrahepatic cholangiocarcinoma,False,False
+MONDO_0008295,sporadic porphyria cutanea tarda,False,False
+MONDO_0003500,squamous cell bile duct carcinoma,False,False
+MONDO_0018534,squamous cell carcinoma of liver and intrahepatic biliary tract,False,False
+MONDO_0009383,transient familial neonatal hyperbilirubinemia,False,False
+MONDO_0013771,transient infantile hypertriglyceridemia and hepatosteatosis,False,False
+MONDO_0018533,undifferentiated carcinoma of liver and intrahepatic biliary tract,False,False
+EFO_0000730,undifferentiated sarcoma,False,False
+MONDO_0008297,variegate porphyria,False,False
+MONDO_0957577,"variegate porphyria, childhood-onset",False,False
+EFO_0004196,viral human hepatitis infection,False,False
+EFO_1000079,Ampulla of Vater Carcinoma,True,False
+EFO_1000247,Extrahepatic Bile Duct Adenosquamous Carcinoma,True,False
+EFO_1000248,Extrahepatic Bile Duct Squamous Cell Carcinoma,True,False
+EFO_1000262,Gallbladder Adenocarcinoma,True,False
+EFO_1000263,Gallbladder Adenoma,True,False
+EFO_1000264,Gallbladder Adenosquamous Carcinoma,True,False
+EFO_1000265,Gallbladder Biliary Intraepithelial Neoplasia,True,False
+EFO_1000266,Gallbladder Small Cell Neuroendocrine Carcinoma,True,False
+EFO_1000267,Gallbladder Squamous Cell Carcinoma,True,False
+EFO_0007444,Plasmodium falciparum malaria,True,False
+EFO_0007445,Plasmodium vivax malaria,True,False
+EFO_1000604,Undifferentiated Gallbladder Carcinoma,True,False
+EFO_0009064,X-linked erythropoietic protoporphyria,True,False
+MONDO_0018536,adenocarcinoma of gallbladder and extrahepatic biliary tract,True,False
+EFO_0008490,ampulla of Vater adenocarcinoma,True,False
+MONDO_0003553,ampulla of vater adenosquamous carcinoma,True,False
+MONDO_0000919,ampulla of vater cancer,True,False
+MONDO_0003388,ampulla of vater clear cell adenocarcinoma,True,False
+MONDO_0002736,ampulla of vater mucinous adenocarcinoma,True,False
+MONDO_0000921,ampulla of vater neoplasm,True,False
+MONDO_0004117,ampulla of vater small cell neuroendocrine carcinoma,True,False
+MONDO_0003490,ampulla of vater squamous cell carcinoma,True,False
+MONDO_0019263,autosomal erythropoietic protoporphyria,True,False
+MONDO_0021503,benign neoplasm of gallbladder,True,False
+EFO_0007172,blackwater fever,True,False
+MONDO_0004459,bladder hepatoid adenocarcinoma,True,False
+MONDO_0021299,carcinoma in situ of extrahepatic bile duct,True,False
+MONDO_0018918,carcinoma of gallbladder and extrahepatic biliary tract,True,False
+EFO_0006857,cerebral malaria,True,False
+MONDO_0002576,embryonal extrahepatic bile duct rhabdomyosarcoma,True,False
+MONDO_0001676,erythropoietic protoporphyria,True,False
+MONDO_0002665,extrahepatic bile duct adenocarcinoma,True,False
+MONDO_0003445,extrahepatic bile duct adenoma,True,False
+MONDO_0003090,extrahepatic bile duct carcinoma,True,False
+MONDO_0004081,extrahepatic bile duct clear cell adenocarcinoma,True,False
+MONDO_0004462,extrahepatic bile duct cystadenoma,True,False
+MONDO_0003286,extrahepatic bile duct leiomyoma,True,False
+MONDO_0003377,extrahepatic bile duct leiomyosarcoma,True,False
+MONDO_0000978,extrahepatic bile duct lipoma,True,False
+MONDO_0002739,extrahepatic bile duct mucinous adenocarcinoma,True,False
+MONDO_0003089,extrahepatic bile duct mucoepidermoid carcinoma,True,False
+MONDO_0021385,extrahepatic bile duct neoplasm,True,False
+MONDO_0004250,extrahepatic bile duct papillary adenoma,True,False
+MONDO_0002577,extrahepatic bile duct rhabdomyosarcoma,True,False
+MONDO_0024658,extrahepatic bile duct sarcoma,True,False
+MONDO_0002664,extrahepatic bile duct signet ring cell carcinoma,True,False
+MONDO_0000373,gall bladder carcinoma in situ,True,False
+MONDO_0003026,gallbladder angiosarcoma,True,False
+MONDO_0005411,gallbladder cancer,True,False
+EFO_1001956,gallbladder carcinoma,True,False
+MONDO_0003297,gallbladder leiomyoma,True,False
+MONDO_0003364,gallbladder leiomyosarcoma,True,False
+MONDO_0000972,gallbladder lipoma,True,False
+MONDO_0004474,gallbladder lymphoma,True,False
+MONDO_0004484,gallbladder melanoma,True,False
+MONDO_0004067,gallbladder mucinous adenocarcinoma,True,False
+EFO_0004606,gallbladder neoplasm,True,False
+MONDO_0024502,gallbladder neuroendocrine neoplasm,True,False
+MONDO_0015073,"gallbladder neuroendocrine tumor, grade 1/2",True,False
+MONDO_0002518,gallbladder papillary neoplasm,True,False
+MONDO_0004148,gallbladder papillary neoplasm with an associated invasive carcinoma,True,False
+MONDO_0002856,gallbladder rhabdomyosarcoma,True,False
+MONDO_0002857,gallbladder sarcoma,True,False
+MONDO_0002667,gallbladder signet ring cell adenocarcinoma,True,False
+EFO_0001068,malaria,True,False
+MONDO_0021321,malignant tumor of extrahepatic bile duct,True,False
+MONDO_0060729,"protoporphyria, erythropoietic, 2",True,False
+EFO_0010970,severe malarial anemia,True,False
+MONDO_0018537,squamous cell carcinoma of gallbladder and extrahepatic biliary tract,True,False
+EFO_0009157,susceptibility to malaria,True,False

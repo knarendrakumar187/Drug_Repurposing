@@ -1,0 +1,8 @@
+{
+  "run": "Run3_onlyconsistent_tier2_BB",
+  "drugs_with_BB_routes": 826,
+  "drugs_treating_a_liver_disease": 111,
+  "removed_liver_contraindicated": 6,
+  "final_drugs": 105,
+  "stage_table_drugs": 25
+}

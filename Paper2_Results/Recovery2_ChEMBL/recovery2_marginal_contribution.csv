@@ -1,0 +1,13 @@
+denominator,drugs_in_denominator,field,optimuskg_supplied,optimuskg_silent,chembl_added
+all OptimusKG raw records,18640,drug_name,14518,4122,938
+all OptimusKG raw records,18640,molecule_type,13183,5457,2500
+all OptimusKG raw records,18640,max_phase,11007,7633,688
+all OptimusKG raw records,18640,smiles,10262,8378,2638
+the graph's Drug nodes,12025,drug_name,10862,1163,16
+the graph's Drug nodes,12025,molecule_type,11623,402,0
+the graph's Drug nodes,12025,max_phase,9902,2123,28
+the graph's Drug nodes,12025,smiles,9036,2989,0
+drugs in Task 4 coverage,2404,drug_name,1756,648,8
+drugs in Task 4 coverage,2404,molecule_type,2404,0,0
+drugs in Task 4 coverage,2404,max_phase,1432,972,17
+drugs in Task 4 coverage,2404,smiles,2404,0,0

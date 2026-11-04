@@ -1,0 +1,12 @@
+,value
+progression_genes,6222
+genes_with_drug,1391
+unique_drugs,5118
+edges,14164
+edges_optimuskg,8948
+edges_added_21oct,5216
+edges_known_direction,5644
+edges_direction_comparable,5644
+edges_cluster_comparable,3908
+relation_conflict_edges,0
+shortlist_genes_with_drug,17

@@ -1,0 +1,29 @@
+Drug,Tier 1,Tier 2,Tier 3,in_all_three,liver_diseases_it_treats
+QUIZARTINIB,3.0,1.0,1.0,True,liver disease
+ALVOCIDIB,1.0,2.0,2.0,True,liver cancer
+MILCICLIB,1.0,2.0,2.0,True,hepatocellular carcinoma
+ZOTIRACICLIB,4.0,6.0,4.0,True,hepatocellular carcinoma
+TRASTUZUMAB,6.0,4.0,5.0,True,biliary tract cancer; biliary tract neoplasm; cholangiocarcinoma
+ZANIDATAMAB,6.0,4.0,5.0,True,biliary tract cancer; biliary tract neoplasm
+SIREMADLIN,5.0,7.0,7.0,True,liver disease
+BELINOSTAT,8.0,13.0,8.0,True,hepatocellular carcinoma
+VORINOSTAT,8.0,13.0,8.0,True,liver cancer
+RICOLINOSTAT,10.0,15.0,10.0,True,hilar cholangiocarcinoma
+BARDOXOLONE METHYL,12.0,11.0,11.0,True,liver disease
+GANETESPIB,13.0,8.0,12.0,True,hepatocellular carcinoma
+SELINEXOR,16.0,17.0,13.0,True,hepatocellular carcinoma
+PACRITINIB,18.0,12.0,14.0,True,liver disease
+PALBOCICLIB,11.0,16.0,15.0,True,hepatocellular carcinoma
+ORELABRUTINIB,14.0,9.0,16.0,True,liver disease
+remibrutinib,14.0,9.0,16.0,True,liver disease
+LONAFARNIB,17.0,18.0,18.0,True,hepatitis D virus infection; liver cancer
+GALUNISERTIB,23.0,20.0,19.0,True,hepatocellular carcinoma
+SELPERCATINIB,22.0,19.0,20.0,True,liver disease
+AZD-1480,24.0,21.0,21.0,True,hepatocellular carcinoma
+FEDRATINIB,24.0,21.0,21.0,True,liver disease
+PEFICITINIB,24.0,21.0,21.0,True,liver disease
+RUXOLITINIB,24.0,21.0,21.0,True,liver disease
+GILTERITINIB,,21.0,25.0,False,liver disease
+ABEMACICLIB,19.0,,,False,biliary tract cancer; hepatocellular carcinoma
+RIBOCICLIB,19.0,,,False,hepatocellular carcinoma
+dalpiciclib,19.0,,,False,liver disease

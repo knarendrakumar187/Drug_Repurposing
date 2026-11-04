@@ -1,0 +1,72 @@
+{
+  "new_pairs_medicines_any_evidence": {
+    "pairs": 12363,
+    "drugs": 3746,
+    "genes": 1391,
+    "new_genes": 743
+  },
+  "new_pairs_by_evidence": {
+    "curated drug-target": {
+      "pairs": 9694,
+      "drugs": 5962,
+      "genes": 1089,
+      "new_genes": 495
+    },
+    "curated, TTD only (gene matched by protein name)": {
+      "pairs": 1196,
+      "drugs": 810,
+      "genes": 485,
+      "new_genes": 183
+    },
+    "lab binding screen": {
+      "pairs": 8803,
+      "drugs": 3911,
+      "genes": 426,
+      "new_genes": 129
+    },
+    "literature / biomarker only": {
+      "pairs": 5638,
+      "drugs": 1537,
+      "genes": 991,
+      "new_genes": 556
+    }
+  },
+  "headline_set": "approved or clinical-trial drugs with a curated drug-target source",
+  "release": {
+    "GtoPdb": "2026.3.1",
+    "DGIdb": "5 (interactions.tsv, downloaded Oct 2026)",
+    "ChEMBL": "REST API (Oct 2026)",
+    "OpenTargets": "Open Targets Platform 26.09"
+  },
+  "new_pairs_all": {
+    "pairs": 25331,
+    "drugs": 10783,
+    "genes": 1727,
+    "new_genes": 979
+  },
+  "new_pairs_medicines_curated": {
+    "pairs": 5216,
+    "drugs": 2623,
+    "genes": 767,
+    "new_genes": 319
+  },
+  "new_pairs_approved_curated": {
+    "pairs": 2218,
+    "drugs": 1168,
+    "genes": 508,
+    "new_genes": 187
+  },
+  "new_pairs_approved": {
+    "pairs": 8052,
+    "drugs": 2102,
+    "genes": 1215,
+    "new_genes": 635
+  },
+  "medicine_pairs_with_direction": 4346,
+  "medicine_pairs_2plus_sources": 3732,
+  "medicines_new_to_progression_genes": 2091,
+  "shortlist_genes_reached_first_time": 0,
+  "genes_with_drug_graph": 1072,
+  "genes_with_drug_graph_plus_new": 1391,
+  "neo4j_check": "21 Oct 2026: 120 random new pairs -> 0 have any Drug\u2013Gene relationship in Neo4j; 150 random new-link drugs -> 121 exist as Drug nodes, 7 have any ACTS_ON"
+}

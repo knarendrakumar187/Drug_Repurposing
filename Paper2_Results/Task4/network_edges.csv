@@ -1,0 +1,566 @@
+source,target,source_name,target_name,action,action_direction,evidence_level,link_origin,gene_class,gene_direction,gene_cluster
+CHEMBL575060,ENSG00000109576,GLUTAMIC ACID,AADAT,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL2103830,ENSG00000115977,FOSTAMATINIB,AAK1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL575060,ENSG00000008311,GLUTAMIC ACID,AASS,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL575060,ENSG00000183044,GLUTAMIC ACID,ABAT,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL14249,ENSG00000165029,ADENOSINE TRIPHOSPHATE,ABCA1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000103222,ADENOSINE TRIPHOSPHATE,ABCC1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL14249,ENSG00000125257,ADENOSINE TRIPHOSPHATE,ABCC4,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL14249,ENSG00000091262,ADENOSINE TRIPHOSPHATE,ABCC6,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000069431,ADENOSINE TRIPHOSPHATE,ABCC9,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL190461,ENSG00000075239,CANNABIDIOL,ACAT1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000151726,ADENOSINE TRIPHOSPHATE,ACSL1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000154930,ADENOSINE TRIPHOSPHATE,ACSS1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL14249,ENSG00000139567,ADENOSINE TRIPHOSPHATE,ACVRL1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL25,ENSG00000196839,ASPIRIN,ADA,unknown,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL14249,ENSG00000164742,ADENOSINE TRIPHOSPHATE,ADCY1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL190461,ENSG00000163485,CANNABIDIOL,ADORA1,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1113,ENSG00000120907,AMOXAPINE,ADRA1A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1112,ENSG00000120907,ARIPIPRAZOLE,ADRA1A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL71,ENSG00000120907,CHLORPROMAZINE,ADRA1A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL184412,ENSG00000120907,DRONEDARONE,ADRA1A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL54,ENSG00000120907,HALOPERIDOL,ADRA1A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL6437,ENSG00000120907,MIANSERIN,ADRA1A,TARGET,down,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1590,ENSG00000120907,PSEUDOEPHEDRINE,ADRA1A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1113,ENSG00000150594,AMOXAPINE,ADRA2A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1112,ENSG00000150594,ARIPIPRAZOLE,ADRA2A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL71,ENSG00000150594,CHLORPROMAZINE,ADRA2A,TARGET,down,single-source,OptimusKG,shared,positive,C2
+CHEMBL184412,ENSG00000150594,DRONEDARONE,ADRA2A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL54,ENSG00000150594,HALOPERIDOL,ADRA2A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL6437,ENSG00000150594,MIANSERIN,ADRA2A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1590,ENSG00000150594,PSEUDOEPHEDRINE,ADRA2A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1113,ENSG00000184160,AMOXAPINE,ADRA2C,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1112,ENSG00000184160,ARIPIPRAZOLE,ADRA2C,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL71,ENSG00000184160,CHLORPROMAZINE,ADRA2C,TARGET,down,single-source,OptimusKG,shared,positive,C2
+CHEMBL184412,ENSG00000184160,DRONEDARONE,ADRA2C,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL54,ENSG00000184160,HALOPERIDOL,ADRA2C,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL6437,ENSG00000184160,MIANSERIN,ADRA2C,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL14249,ENSG00000141385,ADENOSINE TRIPHOSPHATE,AFG3L2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL773,ENSG00000172482,GLYCINE,AGXT,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL773,ENSG00000113492,GLYCINE,AGXT2,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL23588,ENSG00000196139,FLUFENAMIC ACID,AKR1C3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL575060,ENSG00000059573,GLUTAMIC ACID,ALDH18A1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL821,ENSG00000111275,GUANIDINE,ALDH2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000012779,FOSTAMATINIB,ALOX5,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL14249,ENSG00000135409,ADENOSINE TRIPHOSPHATE,AMHR2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000120868,ADENOSINE TRIPHOSPHATE,APAF1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL23588,ENSG00000169083,FLUFENAMIC ACID,AR,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL569,ENSG00000166183,PROCAINE,ASPG,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL14249,ENSG00000130707,ADENOSINE TRIPHOSPHATE,ASS1,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL1590,ENSG00000115966,PSEUDOEPHEDRINE,ATF2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1590,ENSG00000162772,PSEUDOEPHEDRINE,ATF3,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL1590,ENSG00000170653,PSEUDOEPHEDRINE,ATF7,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL931,ENSG00000157087,HALOTHANE,ATP2B2,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL931,ENSG00000058668,HALOTHANE,ATP2B4,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1350,ENSG00000033627,TILUDRONIC ACID,ATP6V0A1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL1350,ENSG00000117410,TILUDRONIC ACID,ATP6V0B,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1350,ENSG00000159720,TILUDRONIC ACID,ATP6V0D1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL1350,ENSG00000114573,TILUDRONIC ACID,ATP6V1A,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000147416,TILUDRONIC ACID,ATP6V1B2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000155097,TILUDRONIC ACID,ATP6V1C1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000131100,TILUDRONIC ACID,ATP6V1E1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000250565,TILUDRONIC ACID,ATP6V1E2,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL1350,ENSG00000128524,TILUDRONIC ACID,ATP6V1F,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1350,ENSG00000047249,TILUDRONIC ACID,ATP6V1H,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL52885,ENSG00000087586,ENMD-981693,AURKA,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2103830,ENSG00000087586,FOSTAMATINIB,AURKA,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1980297,ENSG00000087586,ILORASERTIB,AURKA,INHIBITOR; Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL773,ENSG00000136881,GLYCINE,BAAT,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL575060,ENSG00000060982,GLUTAMIC ACID,BCAT1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL575060,ENSG00000105552,GLUTAMIC ACID,BCAT2,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL1421,ENSG00000136573,DASATINIB,BLK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL52885,ENSG00000136573,ENMD-981693,BLK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL2103830,ENSG00000136573,FOSTAMATINIB,BLK,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL1980297,ENSG00000136573,ILORASERTIB,BLK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL403989,ENSG00000136573,TG100-801,BLK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL1421,ENSG00000010671,DASATINIB,BTK,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C3
+CHEMBL2103830,ENSG00000010671,FOSTAMATINIB,BTK,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C3
+CHEMBL220492,ENSG00000133742,TOPIRAMATE,CA1,TARGET,down,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL750,ENSG00000133742,ZONISAMIDE,CA1,TARGET,down,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL750,ENSG00000063180,ZONISAMIDE,CA11,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL220492,ENSG00000074410,TOPIRAMATE,CA12,Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL750,ENSG00000074410,ZONISAMIDE,CA12,TARGET,down,single-source,OptimusKG,shared,positive,C1
+CHEMBL750,ENSG00000185015,ZONISAMIDE,CA13,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL750,ENSG00000118298,ZONISAMIDE,CA14,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL220492,ENSG00000104267,TOPIRAMATE,CA2,INHIBITOR,down,multi-source,OptimusKG,shared,negative,C4
+CHEMBL750,ENSG00000104267,ZONISAMIDE,CA2,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL750,ENSG00000107159,ZONISAMIDE,CA9,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL184412,ENSG00000151067,DRONEDARONE,CACNA1C,BLOCKER,down,multi-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1257,ENSG00000151067,ENFLURANE,CACNA1C,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL220492,ENSG00000151067,TOPIRAMATE,CACNA1C,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL190461,ENSG00000196557,CANNABIDIOL,CACNA1H,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1257,ENSG00000196557,ENFLURANE,CACNA1H,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL750,ENSG00000196557,ZONISAMIDE,CACNA1H,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL190461,ENSG00000100346,CANNABIDIOL,CACNA1I,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1257,ENSG00000100346,ENFLURANE,CACNA1I,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL750,ENSG00000100346,ZONISAMIDE,CACNA1I,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1257,ENSG00000153956,ENFLURANE,CACNA2D1,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1257,ENSG00000157445,ENFLURANE,CACNA2D3,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL184412,ENSG00000067191,DRONEDARONE,CACNB1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1257,ENSG00000067191,ENFLURANE,CACNB1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL220492,ENSG00000067191,TOPIRAMATE,CACNB1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL184412,ENSG00000165995,DRONEDARONE,CACNB2,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL1257,ENSG00000165995,ENFLURANE,CACNB2,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL220492,ENSG00000165995,TOPIRAMATE,CACNB2,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL184412,ENSG00000167535,DRONEDARONE,CACNB3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1257,ENSG00000167535,ENFLURANE,CACNB3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL220492,ENSG00000167535,TOPIRAMATE,CACNB3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000183049,FOSTAMATINIB,CAMK1D,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000070808,FOSTAMATINIB,CAMK2A,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL2103830,ENSG00000145349,FOSTAMATINIB,CAMK2D,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL2103830,ENSG00000004660,FOSTAMATINIB,CAMKK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000147044,FOSTAMATINIB,CASK,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000137752,ASPIRIN,CASP1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL25,ENSG00000164305,ASPIRIN,CASP3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL190461,ENSG00000121691,CANNABIDIOL,CAT,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL25,ENSG00000110092,ASPIRIN,CCND1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000170312,FOSTAMATINIB,CDK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000102225,FOSTAMATINIB,CDK16,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000135446,FOSTAMATINIB,CDK4,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000149554,FOSTAMATINIB,CHEK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000183765,FOSTAMATINIB,CHEK2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C3
+CHEMBL1113,ENSG00000181072,AMOXAPINE,CHRM2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1112,ENSG00000181072,ARIPIPRAZOLE,CHRM2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL52440,ENSG00000120903,DEXTROMETHORPHAN,CHRNA2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL569,ENSG00000120903,PROCAINE,CHRNA2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL52440,ENSG00000101204,DEXTROMETHORPHAN,CHRNA4,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000122966,FOSTAMATINIB,CIT,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2108709,ENSG00000060718,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL11A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000060718,OCRIPLASMIN,COL11A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2108709,ENSG00000204248,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL11A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL2095222,ENSG00000204248,OCRIPLASMIN,COL11A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL2108709,ENSG00000204291,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL15A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2095222,ENSG00000204291,OCRIPLASMIN,COL15A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2108709,ENSG00000108821,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL1A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000108821,OCRIPLASMIN,COL1A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2108709,ENSG00000164692,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL1A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000164692,OCRIPLASMIN,COL1A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2108709,ENSG00000215018,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL28A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2095222,ENSG00000215018,OCRIPLASMIN,COL28A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2108709,ENSG00000168542,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL3A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000168542,OCRIPLASMIN,COL3A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2108709,ENSG00000187498,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL4A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000187498,OCRIPLASMIN,COL4A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2108709,ENSG00000134871,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL4A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000134871,OCRIPLASMIN,COL4A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2108709,ENSG00000169031,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL4A3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000169031,OCRIPLASMIN,COL4A3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2108709,ENSG00000081052,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL4A4,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000081052,OCRIPLASMIN,COL4A4,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2108709,ENSG00000130635,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL5A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000130635,OCRIPLASMIN,COL5A1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2108709,ENSG00000204262,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL5A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000204262,OCRIPLASMIN,COL5A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2108709,ENSG00000080573,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL5A3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000080573,OCRIPLASMIN,COL5A3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2108709,ENSG00000142173,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL6A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL2095222,ENSG00000142173,OCRIPLASMIN,COL6A2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL2108709,ENSG00000163359,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL6A3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000163359,OCRIPLASMIN,COL6A3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2108709,ENSG00000206384,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COL6A6,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2095222,ENSG00000206384,OCRIPLASMIN,COL6A6,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000163050,FOSTAMATINIB,COQ8A,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL575060,ENSG00000104324,GLUTAMIC ACID,CPQ,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1421,ENSG00000103653,DASATINIB,CSK,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000103653,FOSTAMATINIB,CSK,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL403989,ENSG00000103653,TG100-801,CSK,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL52440,ENSG00000051523,DEXTROMETHORPHAN,CYBA,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL190461,ENSG00000148795,CANNABIDIOL,CYP17A1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL190461,ENSG00000140505,CANNABIDIOL,CYP1A2,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL190461,ENSG00000138061,CANNABIDIOL,CYP1B1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL190461,ENSG00000160870,CANNABIDIOL,CYP3A7,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000167657,FOSTAMATINIB,DAPK3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000170390,FOSTAMATINIB,DCLK2,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000163673,FOSTAMATINIB,DCLK3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000204580,FOSTAMATINIB,DDR1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000162733,FOSTAMATINIB,DDR2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL569,ENSG00000130816,PROCAINE,DNMT1,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL569,ENSG00000119772,PROCAINE,DNMT3A,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1113,ENSG00000184845,AMOXAPINE,DRD1,ANTAGONIST,down,multi-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1112,ENSG00000184845,ARIPIPRAZOLE,DRD1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL71,ENSG00000184845,CHLORPROMAZINE,DRD1,TARGET,down,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL54,ENSG00000184845,HALOPERIDOL,DRD1,TARGET,down,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL6437,ENSG00000184845,MIANSERIN,DRD1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1113,ENSG00000069696,AMOXAPINE,DRD4,ANTAGONIST,down,multi-source,OptimusKG,inflammation_only,negative,
+CHEMBL1112,ENSG00000069696,ARIPIPRAZOLE,DRD4,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL71,ENSG00000069696,CHLORPROMAZINE,DRD4,ANTAGONIST,down,multi-source,OptimusKG,inflammation_only,negative,
+CHEMBL54,ENSG00000069696,HALOPERIDOL,DRD4,Antagonist / Antagonist; INVERSE AGONIST,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL575060,ENSG00000103356,GLUTAMIC ACID,EARS2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000151617,ASPIRIN,EDNRA,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000146648,FOSTAMATINIB,EGFR,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL24828,ENSG00000146648,VANDETANIB,EGFR,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000055332,FOSTAMATINIB,EIF2AK2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000128829,FOSTAMATINIB,EIF2AK4,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL575060,ENSG00000138792,GLUTAMIC ACID,ENPEP,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1421,ENSG00000142627,DASATINIB,EPHA2,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000142627,FOSTAMATINIB,EPHA2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL24828,ENSG00000142627,VANDETANIB,EPHA2,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000044524,FOSTAMATINIB,EPHA3,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL24828,ENSG00000044524,VANDETANIB,EPHA3,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2103830,ENSG00000116106,FOSTAMATINIB,EPHA4,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL24828,ENSG00000116106,VANDETANIB,EPHA4,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2103830,ENSG00000080224,FOSTAMATINIB,EPHA6,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL24828,ENSG00000080224,VANDETANIB,EPHA6,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2103830,ENSG00000133216,FOSTAMATINIB,EPHB2,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL24828,ENSG00000133216,VANDETANIB,EPHB2,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL24828,ENSG00000182580,VANDETANIB,EPHB3,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2103830,ENSG00000106123,FOSTAMATINIB,EPHB6,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL24828,ENSG00000106123,VANDETANIB,EPHB6,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL575060,ENSG00000136628,GLUTAMIC ACID,EPRS1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000141736,FOSTAMATINIB,ERBB2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL24828,ENSG00000141736,VANDETANIB,ERBB2,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL24828,ENSG00000065361,VANDETANIB,ERBB3,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL2103830,ENSG00000178607,FOSTAMATINIB,ERN1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL52885,ENSG00000066468,ENMD-981693,FGFR2,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2103830,ENSG00000066468,FOSTAMATINIB,FGFR2,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL403989,ENSG00000066468,TG100-801,FGFR2,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL52885,ENSG00000068078,ENMD-981693,FGFR3,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL2103830,ENSG00000068078,FOSTAMATINIB,FGFR3,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL52885,ENSG00000160867,ENMD-981693,FGFR4,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL1421,ENSG00000000938,DASATINIB,FGR,INHIBITOR,down,multi-source,OptimusKG,shared,positive,C3
+CHEMBL52885,ENSG00000000938,ENMD-981693,FGR,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C3
+CHEMBL2103830,ENSG00000000938,FOSTAMATINIB,FGR,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL1980297,ENSG00000000938,ILORASERTIB,FGR,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C3
+CHEMBL403989,ENSG00000000938,TG100-801,FGR,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C3
+CHEMBL575060,ENSG00000086205,GLUTAMIC ACID,FOLH1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1590,ENSG00000170345,PSEUDOEPHEDRINE,FOS,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL575060,ENSG00000136877,GLUTAMIC ACID,FPGS,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL1421,ENSG00000111816,DASATINIB,FRK,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL52885,ENSG00000111816,ENMD-981693,FRK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000111816,FOSTAMATINIB,FRK,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1980297,ENSG00000111816,ILORASERTIB,FRK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL403989,ENSG00000111816,TG100-801,FRK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL1113,ENSG00000166206,AMOXAPINE,GABRB3,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1257,ENSG00000166206,ENFLURANE,GABRB3,POSITIVE_MODULATOR,up,multi-source,OptimusKG,shared,positive,C2
+CHEMBL931,ENSG00000166206,HALOTHANE,GABRB3,POSITIVE_ALLOSTERIC_MODULATOR,up,multi-source,OptimusKG,shared,positive,C2
+CHEMBL220492,ENSG00000166206,TOPIRAMATE,GABRB3,POSITIVE MODULATOR,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL1113,ENSG00000102287,AMOXAPINE,GABRE,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL1257,ENSG00000102287,ENFLURANE,GABRE,POSITIVE_MODULATOR,up,multi-source,OptimusKG,shared,positive,C1
+CHEMBL931,ENSG00000102287,HALOTHANE,GABRE,POSITIVE_ALLOSTERIC_MODULATOR,up,multi-source,OptimusKG,shared,positive,C1
+CHEMBL220492,ENSG00000102287,TOPIRAMATE,GABRE,POSITIVE MODULATOR,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL821,ENSG00000130005,GUANIDINE,GAMT,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL773,ENSG00000106105,GLYCINE,GARS1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL773,ENSG00000171766,GLYCINE,GATM,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL773,ENSG00000100116,GLYCINE,GCAT,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL575060,ENSG00000001084,GLUTAMIC ACID,GCLC,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000198356,ADENOSINE TRIPHOSPHATE,GET3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL575060,ENSG00000115486,GLUTAMIC ACID,GGCX,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL23588,ENSG00000152661,FLUFENAMIC ACID,GJA1,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL23588,ENSG00000187513,FLUFENAMIC ACID,GJA4,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL23588,ENSG00000169562,FLUFENAMIC ACID,GJB1,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL23588,ENSG00000165474,FLUFENAMIC ACID,GJB2,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL23588,ENSG00000189280,FLUFENAMIC ACID,GJB5,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL23588,ENSG00000198835,FLUFENAMIC ACID,GJC2,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL190461,ENSG00000109738,CANNABIDIOL,GLRB,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1257,ENSG00000109738,ENFLURANE,GLRB,POSITIVE MODULATOR,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL773,ENSG00000109738,GLYCINE,GLRB,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL931,ENSG00000109738,HALOTHANE,GLRB,POSITIVE MODULATOR,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL575060,ENSG00000115419,GLUTAMIC ACID,GLS,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL575060,ENSG00000135423,GLUTAMIC ACID,GLS2,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL575060,ENSG00000148672,GLUTAMIC ACID,GLUD1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL575060,ENSG00000182890,GLUTAMIC ACID,GLUD2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL773,ENSG00000149124,GLYCINE,GLYAT,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL773,ENSG00000166840,GLYCINE,GLYATL1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL575060,ENSG00000163655,GLUTAMIC ACID,GMPS,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL773,ENSG00000124713,GLYCINE,GNMT,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL190461,ENSG00000135898,CANNABIDIOL,GPR55,TARGET,down,single-source,OptimusKG,fibrosis_only,positive,C3
+CHEMBL575060,ENSG00000167701,GLUTAMIC ACID,GPT,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL575060,ENSG00000166123,GLUTAMIC ACID,GPT2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL575060,ENSG00000125675,GLUTAMIC ACID,GRIA3,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL220492,ENSG00000125675,TOPIRAMATE,GRIA3,ANTAGONIST,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C3
+CHEMBL1112,ENSG00000105464,ARIPIPRAZOLE,GRIN2D,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL1257,ENSG00000105464,ENFLURANE,GRIN2D,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL575060,ENSG00000105464,GLUTAMIC ACID,GRIN2D,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL773,ENSG00000105464,GLYCINE,GRIN2D,Agonist / Agonist,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL1112,ENSG00000198785,ARIPIPRAZOLE,GRIN3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL52440,ENSG00000198785,DEXTROMETHORPHAN,GRIN3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1257,ENSG00000198785,ENFLURANE,GRIN3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL575060,ENSG00000198785,GLUTAMIC ACID,GRIN3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL931,ENSG00000198785,HALOTHANE,GRIN3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL569,ENSG00000198785,PROCAINE,GRIN3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000173020,ADENOSINE TRIPHOSPHATE,GRK2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL14249,ENSG00000100077,ADENOSINE TRIPHOSPHATE,GRK3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL575060,ENSG00000152822,GLUTAMIC ACID,GRM1,TARGET,up,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL575060,ENSG00000179603,GLUTAMIC ACID,GRM8,TARGET,up,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000105723,FOSTAMATINIB,GSK3A,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL190461,ENSG00000104687,CANNABIDIOL,GSR,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL773,ENSG00000100983,GLYCINE,GSS,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000064393,FOSTAMATINIB,HIPK2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL190461,ENSG00000113161,CANNABIDIOL,HMGCR,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1112,ENSG00000113749,ARIPIPRAZOLE,HRH2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000044574,ASPIRIN,HSPA5,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1421,ENSG00000109971,DASATINIB,HSPA8,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1113,ENSG00000102468,AMOXAPINE,HTR2A,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL1112,ENSG00000102468,ARIPIPRAZOLE,HTR2A,ANTAGONIST,down,multi-source,OptimusKG,shared,negative,C5
+CHEMBL190461,ENSG00000102468,CANNABIDIOL,HTR2A,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL71,ENSG00000102468,CHLORPROMAZINE,HTR2A,ANTAGONIST,down,multi-source,OptimusKG,shared,negative,C5
+CHEMBL54,ENSG00000102468,HALOPERIDOL,HTR2A,ANTAGONIST,down,multi-source,OptimusKG,shared,negative,C5
+CHEMBL6437,ENSG00000102468,MIANSERIN,HTR2A,TARGET,down,single-source,OptimusKG,shared,negative,C5
+CHEMBL1113,ENSG00000135914,AMOXAPINE,HTR2B,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL1112,ENSG00000135914,ARIPIPRAZOLE,HTR2B,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL71,ENSG00000135914,CHLORPROMAZINE,HTR2B,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL54,ENSG00000135914,HALOPERIDOL,HTR2B,Antagonist / Antagonist,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL6437,ENSG00000135914,MIANSERIN,HTR2B,TARGET,down,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL1113,ENSG00000148680,AMOXAPINE,HTR7,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL1112,ENSG00000148680,ARIPIPRAZOLE,HTR7,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL71,ENSG00000148680,CHLORPROMAZINE,HTR7,TARGET,down,single-source,OptimusKG,shared,positive,C3
+CHEMBL54,ENSG00000148680,HALOPERIDOL,HTR7,TARGET,down,single-source,OptimusKG,shared,positive,C3
+CHEMBL6437,ENSG00000148680,MIANSERIN,HTR7,TARGET,down,single-source,OptimusKG,shared,positive,C3
+CHEMBL2103830,ENSG00000184216,FOSTAMATINIB,IRAK1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000090376,FOSTAMATINIB,IRAK3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000105639,FOSTAMATINIB,JAK3,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1590,ENSG00000140044,PSEUDOEPHEDRINE,JDP2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1590,ENSG00000177606,PSEUDOEPHEDRINE,JUN,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL821,ENSG00000177301,GUANIDINE,KCNA2,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2107762,ENSG00000177301,NERISPIRDINE,KCNA2,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL821,ENSG00000177272,GUANIDINE,KCNA3,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL2107762,ENSG00000177272,NERISPIRDINE,KCNA3,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL821,ENSG00000158445,GUANIDINE,KCNB1,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2107762,ENSG00000158445,NERISPIRDINE,KCNB1,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL821,ENSG00000166006,GUANIDINE,KCNC2,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2107762,ENSG00000166006,NERISPIRDINE,KCNC2,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL821,ENSG00000102057,GUANIDINE,KCND1,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2107762,ENSG00000102057,NERISPIRDINE,KCND1,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL184412,ENSG00000171385,DRONEDARONE,KCND3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL821,ENSG00000171385,GUANIDINE,KCND3,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL2107762,ENSG00000171385,NERISPIRDINE,KCND3,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL821,ENSG00000143473,GUANIDINE,KCNH1,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL54,ENSG00000143473,HALOPERIDOL,KCNH1,Channel blocker / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2107762,ENSG00000143473,NERISPIRDINE,KCNH1,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL821,ENSG00000184611,GUANIDINE,KCNH7,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL2107762,ENSG00000184611,NERISPIRDINE,KCNH7,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL184412,ENSG00000162989,DRONEDARONE,KCNJ3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL931,ENSG00000162989,HALOTHANE,KCNJ3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1257,ENSG00000171303,ENFLURANE,KCNK3,OPENER,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL931,ENSG00000171303,HALOTHANE,KCNK3,OPENER,up,multi-source,OptimusKG,shared,negative,C5
+CHEMBL931,ENSG00000164626,HALOTHANE,KCNK5,Activator / ,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL1257,ENSG00000156113,ENFLURANE,KCNMA1,unknown,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL931,ENSG00000156113,HALOTHANE,KCNMA1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL569,ENSG00000156113,PROCAINE,KCNMA1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL569,ENSG00000197584,PROCAINE,KCNMB2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C3
+CHEMBL569,ENSG00000080709,PROCAINE,KCNN2,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL931,ENSG00000104783,HALOTHANE,KCNN4,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL569,ENSG00000104783,PROCAINE,KCNN4,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL821,ENSG00000170745,GUANIDINE,KCNS3,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2107762,ENSG00000170745,NERISPIRDINE,KCNS3,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL23588,ENSG00000162687,FLUFENAMIC ACID,KCNT2,Activator / Agonist,up,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL52885,ENSG00000128052,ENMD-981693,KDR,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL2103830,ENSG00000128052,FOSTAMATINIB,KDR,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL1980297,ENSG00000128052,ILORASERTIB,KDR,INHIBITOR; Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL403989,ENSG00000128052,TG100-801,KDR,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL24828,ENSG00000128052,VANDETANIB,KDR,INHIBITOR; Inhibitor / Inhibition; inhibitor,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL1421,ENSG00000157404,DASATINIB,KIT,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000157404,FOSTAMATINIB,KIT,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1980297,ENSG00000157404,ILORASERTIB,KIT,Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2095222,ENSG00000196569,OCRIPLASMIN,LAMA2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000053747,OCRIPLASMIN,LAMA3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000091136,OCRIPLASMIN,LAMB1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,positive,
+CHEMBL2095222,ENSG00000172037,OCRIPLASMIN,LAMB2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2095222,ENSG00000196878,OCRIPLASMIN,LAMB3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000135862,OCRIPLASMIN,LAMC1,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2095222,ENSG00000058085,OCRIPLASMIN,LAMC2,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2095222,ENSG00000050555,OCRIPLASMIN,LAMC3,HYDROLYTIC ENZYME,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL1421,ENSG00000182866,DASATINIB,LCK,INHIBITOR,down,multi-source,OptimusKG,shared,positive,C2
+CHEMBL52885,ENSG00000182866,ENMD-981693,LCK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2103830,ENSG00000182866,FOSTAMATINIB,LCK,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL1980297,ENSG00000182866,ILORASERTIB,LCK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL403989,ENSG00000182866,TG100-801,LCK,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2103830,ENSG00000106683,FOSTAMATINIB,LIMK1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C3
+CHEMBL2103830,ENSG00000182541,FOSTAMATINIB,LIMK2,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL6437,ENSG00000198121,MIANSERIN,LPAR1,Antagonist / Antagonist,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL569,ENSG00000189221,PROCAINE,MAOA,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL750,ENSG00000189221,ZONISAMIDE,MAOA,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL569,ENSG00000069535,PROCAINE,MAOB,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL750,ENSG00000069535,ZONISAMIDE,MAOB,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000034152,FOSTAMATINIB,MAP2K3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000095015,FOSTAMATINIB,MAP3K1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000169967,FOSTAMATINIB,MAP3K2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL2103830,ENSG00000142733,FOSTAMATINIB,MAP3K6,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000168067,FOSTAMATINIB,MAP4K2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000109339,FOSTAMATINIB,MAPK10,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000156711,FOSTAMATINIB,MAPK13,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000141639,ASPIRIN,MAPK4,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000141639,FOSTAMATINIB,MAPK4,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000069956,ASPIRIN,MAPK6,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000166484,ASPIRIN,MAPK7,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000166484,FOSTAMATINIB,MAPK7,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000116141,FOSTAMATINIB,MARK1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000072518,FOSTAMATINIB,MARK2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000105613,FOSTAMATINIB,MAST1,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL2103830,ENSG00000007264,FOSTAMATINIB,MATK,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000165304,FOSTAMATINIB,MELK,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL2103830,ENSG00000105976,FOSTAMATINIB,MET,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL2103830,ENSG00000141503,FOSTAMATINIB,MINK1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL1350,ENSG00000087245,TILUDRONIC ACID,MMP2,Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C2
+CHEMBL2103830,ENSG00000164078,FOSTAMATINIB,MST1R,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000198793,FOSTAMATINIB,MTOR,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000030304,FOSTAMATINIB,MUSK,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL25,ENSG00000136997,ASPIRIN,MYC,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000095777,FOSTAMATINIB,MYO3A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL190461,ENSG00000138744,CANNABIDIOL,NAAA,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL575060,ENSG00000172890,GLUTAMIC ACID,NADSYN1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL14249,ENSG00000159593,ADENOSINE TRIPHOSPHATE,NAE1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL575060,ENSG00000161653,GLUTAMIC ACID,NAGS,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL52440,ENSG00000116701,DEXTROMETHORPHAN,NCF2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL52440,ENSG00000100365,DEXTROMETHORPHAN,NCF4,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000137601,FOSTAMATINIB,NEK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000114670,FOSTAMATINIB,NEK11,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000117650,FOSTAMATINIB,NEK2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000114904,FOSTAMATINIB,NEK4,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000119638,FOSTAMATINIB,NEK9,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1590,ENSG00000131196,PSEUDOEPHEDRINE,NFATC1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1590,ENSG00000109320,PSEUDOEPHEDRINE,NFKB1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL190461,ENSG00000181019,CANNABIDIOL,NQO1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1421,ENSG00000119508,DASATINIB,NR4A3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000163545,FOSTAMATINIB,NUAK2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL575060,ENSG00000178814,GLUTAMIC ACID,OPLAH,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL71,ENSG00000228278,CHLORPROMAZINE,ORM2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL14249,ENSG00000244165,ADENOSINE TRIPHOSPHATE,P2RY11,TARGET,up,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000077264,FOSTAMATINIB,PAK3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000101349,FOSTAMATINIB,PAK5,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL23588,ENSG00000073150,FLUFENAMIC ACID,PANX2,Inhibitor / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL25,ENSG00000132646,ASPIRIN,PCNA,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL25,ENSG00000065989,ASPIRIN,PDE4A,unknown,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL52885,ENSG00000134853,ENMD-981693,PDGFRA,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000134853,FOSTAMATINIB,PDGFRA,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1980297,ENSG00000134853,ILORASERTIB,PDGFRA,INHIBITOR; Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL1421,ENSG00000113721,DASATINIB,PDGFRB,INHIBITOR,down,multi-source,OptimusKG,shared,positive,C1
+CHEMBL52885,ENSG00000113721,ENMD-981693,PDGFRB,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2103830,ENSG00000113721,FOSTAMATINIB,PDGFRB,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL1980297,ENSG00000113721,ILORASERTIB,PDGFRB,INHIBITOR; Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL403989,ENSG00000113721,TG100-801,PDGFRB,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL2103830,ENSG00000133056,FOSTAMATINIB,PIK3C2B,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000139144,FOSTAMATINIB,PIK3C2G,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL14249,ENSG00000121879,ADENOSINE TRIPHOSPHATE,PIK3CA,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL2103830,ENSG00000171608,FOSTAMATINIB,PIK3CD,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000105851,FOSTAMATINIB,PIK3CG,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000166908,FOSTAMATINIB,PIP4K2C,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL773,ENSG00000179761,GLYCINE,PIPOX,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL2103830,ENSG00000127564,FOSTAMATINIB,PKMYT1,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000065243,FOSTAMATINIB,PKN2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL569,ENSG00000116711,PROCAINE,PLA2G4A,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000166851,FOSTAMATINIB,PLK1,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL2103830,ENSG00000145632,FOSTAMATINIB,PLK2,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000173846,FOSTAMATINIB,PLK3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000142731,FOSTAMATINIB,PLK4,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL23588,ENSG00000186951,FLUFENAMIC ACID,PPARA,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL190461,ENSG00000132170,CANNABIDIOL,PPARG,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL23588,ENSG00000132170,FLUFENAMIC ACID,PPARG,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL14249,ENSG00000011485,ADENOSINE TRIPHOSPHATE,PPP5C,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL14249,ENSG00000132356,ADENOSINE TRIPHOSPHATE,PRKAA1,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL25,ENSG00000132356,ASPIRIN,PRKAA1,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL2103830,ENSG00000132356,FOSTAMATINIB,PRKAA1,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL25,ENSG00000162409,ASPIRIN,PRKAA2,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000162409,FOSTAMATINIB,PRKAA2,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000142875,FOSTAMATINIB,PRKACB,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000181929,ASPIRIN,PRKAG1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000181929,FOSTAMATINIB,PRKAG1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL25,ENSG00000106617,ASPIRIN,PRKAG2,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL2103830,ENSG00000106617,FOSTAMATINIB,PRKAG2,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL2103830,ENSG00000163932,FOSTAMATINIB,PRKCD,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000171132,FOSTAMATINIB,PRKCE,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000065675,FOSTAMATINIB,PRKCQ,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL25,ENSG00000095303,ASPIRIN,PTGS1,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL190461,ENSG00000095303,CANNABIDIOL,PTGS1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL23588,ENSG00000095303,FLUFENAMIC ACID,PTGS1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL25,ENSG00000073756,ASPIRIN,PTGS2,INHIBITOR,down,multi-source,OptimusKG,shared,positive,C2
+CHEMBL190461,ENSG00000073756,CANNABIDIOL,PTGS2,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL23588,ENSG00000073756,FLUFENAMIC ACID,PTGS2,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000120899,FOSTAMATINIB,PTK2B,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL2103830,ENSG00000101213,FOSTAMATINIB,PTK6,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL24828,ENSG00000101213,VANDETANIB,PTK6,INHIBITOR,down,multi-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000196396,TILUDRONIC ACID,PTPN1,unknown,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL1350,ENSG00000127947,TILUDRONIC ACID,PTPN12,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000111679,TILUDRONIC ACID,PTPN6,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL1350,ENSG00000132334,TILUDRONIC ACID,PTPRE,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL52440,ENSG00000136238,DEXTROMETHORPHAN,RAC1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL52440,ENSG00000128340,DEXTROMETHORPHAN,RAC2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL2103830,ENSG00000165731,FOSTAMATINIB,RET,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL24828,ENSG00000165731,VANDETANIB,RET,INHIBITOR,down,multi-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000124784,FOSTAMATINIB,RIOK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000058729,FOSTAMATINIB,RIOK2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000101782,FOSTAMATINIB,RIOK3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000137275,FOSTAMATINIB,RIPK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000104312,FOSTAMATINIB,RIPK2,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000183421,FOSTAMATINIB,RIPK4,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL821,ENSG00000129538,GUANIDINE,RNASE1,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000117676,FOSTAMATINIB,RPS6KA1,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL25,ENSG00000177189,ASPIRIN,RPS6KA3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000177189,FOSTAMATINIB,RPS6KA3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000072133,FOSTAMATINIB,RPS6KA6,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL190461,ENSG00000136531,CANNABIDIOL,SCN2A,Channel blocker / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL184412,ENSG00000136531,DRONEDARONE,SCN2A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL2107762,ENSG00000136531,NERISPIRDINE,SCN2A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL569,ENSG00000136531,PROCAINE,SCN2A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),inflammation_only,negative,
+CHEMBL220492,ENSG00000136531,TOPIRAMATE,SCN2A,BLOCKER,down,multi-source,OptimusKG,inflammation_only,negative,
+CHEMBL750,ENSG00000136531,ZONISAMIDE,SCN2A,BLOCKER,down,multi-source,OptimusKG,inflammation_only,negative,
+CHEMBL190461,ENSG00000007314,CANNABIDIOL,SCN4A,Channel blocker / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL184412,ENSG00000007314,DRONEDARONE,SCN4A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL2107762,ENSG00000007314,NERISPIRDINE,SCN4A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL569,ENSG00000007314,PROCAINE,SCN4A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C2
+CHEMBL220492,ENSG00000007314,TOPIRAMATE,SCN4A,BLOCKER,down,multi-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL750,ENSG00000007314,ZONISAMIDE,SCN4A,BLOCKER,down,multi-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL190461,ENSG00000196876,CANNABIDIOL,SCN8A,Channel blocker / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL184412,ENSG00000196876,DRONEDARONE,SCN8A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL2107762,ENSG00000196876,NERISPIRDINE,SCN8A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL569,ENSG00000196876,PROCAINE,SCN8A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL220492,ENSG00000196876,TOPIRAMATE,SCN8A,BLOCKER,down,multi-source,OptimusKG,shared,negative,C5
+CHEMBL750,ENSG00000196876,ZONISAMIDE,SCN8A,BLOCKER,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C5
+CHEMBL2103830,ENSG00000104205,FOSTAMATINIB,SGK3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL773,ENSG00000176974,GLYCINE,SHMT1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL773,ENSG00000182199,GLYCINE,SHMT2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL52440,ENSG00000147955,DEXTROMETHORPHAN,SIGMAR1,AGONIST,up,multi-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL54,ENSG00000147955,HALOPERIDOL,SIGMAR1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL1421,ENSG00000170145,DASATINIB,SIK2,Inhibitor / Inhibition,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C4
+CHEMBL2103830,ENSG00000170145,FOSTAMATINIB,SIK2,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL575060,ENSG00000106688,GLUTAMIC ACID,SLC1A1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL575060,ENSG00000079215,GLUTAMIC ACID,SLC1A3,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL575060,ENSG00000162383,GLUTAMIC ACID,SLC1A7,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL773,ENSG00000139209,GLYCINE,SLC38A4, / ,unknown,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL1113,ENSG00000103546,AMOXAPINE,SLC6A2,INHIBITOR,down,multi-source,OptimusKG,shared,positive,C3
+CHEMBL52440,ENSG00000103546,DEXTROMETHORPHAN,SLC6A2,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL6437,ENSG00000103546,MIANSERIN,SLC6A2,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL1590,ENSG00000103546,PSEUDOEPHEDRINE,SLC6A2,RELEASING_AGENT,mixed,multi-source,OptimusKG,shared,positive,C3
+CHEMBL190461,ENSG00000142168,CANNABIDIOL,SOD1,TARGET,unknown,single-source,OptimusKG,shared,negative,C5
+CHEMBL1421,ENSG00000197122,DASATINIB,SRC,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL52885,ENSG00000197122,ENMD-981693,SRC,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000197122,FOSTAMATINIB,SRC,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL1980297,ENSG00000197122,ILORASERTIB,SRC,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL403989,ENSG00000197122,TG100-801,SRC,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL24828,ENSG00000197122,VANDETANIB,SRC,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,positive,C1
+CHEMBL1421,ENSG00000173757,DASATINIB,STAT5B,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL2103830,ENSG00000072786,FOSTAMATINIB,STK10,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000164543,FOSTAMATINIB,STK17A,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL2103830,ENSG00000081320,FOSTAMATINIB,STK17B,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000134602,FOSTAMATINIB,STK26,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000104375,FOSTAMATINIB,STK3,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000169302,FOSTAMATINIB,STK32A,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000112079,FOSTAMATINIB,STK38,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000198648,FOSTAMATINIB,STK39,TARGET,unknown,single-source,OptimusKG,shared,positive,C2
+CHEMBL2103830,ENSG00000165025,FOSTAMATINIB,SYK,INHIBITOR,down,multi-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000135090,FOSTAMATINIB,TAOK3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL575060,ENSG00000198650,GLUTAMIC ACID,TAT,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C4
+CHEMBL2103830,ENSG00000183735,FOSTAMATINIB,TBK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1350,ENSG00000110719,TILUDRONIC ACID,TCIRG1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C1
+CHEMBL2103830,ENSG00000135605,FOSTAMATINIB,TEC,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL2103830,ENSG00000107140,FOSTAMATINIB,TESK1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000106799,FOSTAMATINIB,TGFBR1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL2103830,ENSG00000198586,FOSTAMATINIB,TLK1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,negative,C5
+CHEMBL1590,ENSG00000232810,PSEUDOEPHEDRINE,TNF,TARGET,unknown,single-source,OptimusKG,shared,positive,C1
+CHEMBL190461,ENSG00000104321,CANNABIDIOL,TRPA1,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2
+CHEMBL71,ENSG00000072315,CHLORPROMAZINE,TRPC5,Channel blocker / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL23588,ENSG00000072315,FLUFENAMIC ACID,TRPC5,Channel blocker / ,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),fibrosis_only,negative,C5
+CHEMBL23588,ENSG00000142185,FLUFENAMIC ACID,TRPM2,Channel blocker / Antagonist,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,positive,C1
+CHEMBL190461,ENSG00000144481,CANNABIDIOL,TRPM8,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL190461,ENSG00000196689,CANNABIDIOL,TRPV1,TARGET,unknown,single-source,OptimusKG,inflammation_only,negative,
+CHEMBL190461,ENSG00000187688,CANNABIDIOL,TRPV2,TARGET,up,single-source,OptimusKG,shared,positive,C1
+CHEMBL190461,ENSG00000111199,CANNABIDIOL,TRPV4,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL2103830,ENSG00000112742,FOSTAMATINIB,TTK,TARGET,unknown,single-source,OptimusKG,shared,positive,C3
+CHEMBL2103830,ENSG00000140474,FOSTAMATINIB,ULK3,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL190461,ENSG00000213585,CANNABIDIOL,VDAC1,TARGET,unknown,single-source,OptimusKG,inflammation_only,positive,
+CHEMBL1421,ENSG00000176105,DASATINIB,YES1,INHIBITOR,down,multi-source,OptimusKG,shared,negative,C4
+CHEMBL52885,ENSG00000176105,ENMD-981693,YES1,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C4
+CHEMBL2103830,ENSG00000176105,FOSTAMATINIB,YES1,TARGET,unknown,single-source,OptimusKG,shared,negative,C4
+CHEMBL1980297,ENSG00000176105,ILORASERTIB,YES1,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C4
+CHEMBL403989,ENSG00000176105,TG100-801,YES1,INHIBITOR,down,curated drug-target,ChEMBL/DGIdb/GtoPdb/OpenTargets (added 21 Oct 2026),shared,negative,C4
+CHEMBL2103830,ENSG00000115085,FOSTAMATINIB,ZAP70,TARGET,unknown,single-source,OptimusKG,fibrosis_only,positive,C2

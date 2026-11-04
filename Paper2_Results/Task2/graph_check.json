@@ -1,0 +1,14 @@
+{
+  "source_used": "Neo4j (live liver_kg, read-only)",
+  "graph_drug_nodes": 12544,
+  "graph_acts_on_total": 25890,
+  "graph_acts_on_added_21oct": 5216,
+  "write_log_acts_on_after": 25890,
+  "write_log_drugs_after": 12544,
+  "edges_on_progression_genes": 14164,
+  "edges_optimuskg": 8948,
+  "edges_added_21oct": 5216,
+  "duplicate_drug_gene_pairs": 0,
+  "edges_with_external_action_props": 297,
+  "graph_matches_write_log": true
+}

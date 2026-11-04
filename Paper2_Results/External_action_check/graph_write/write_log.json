@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "relationships_written": 297,
+  "ACTS_ON_before": 20674,
+  "ACTS_ON_after": 20674,
+  "action_labels_unchanged": true,
+  "directions_match_file": true,
+  "external_by_direction": {
+    "down": 215,
+    "up": 82
+  },
+  "properties_added": [
+    "external_action_direction",
+    "external_action_label",
+    "external_action_sources",
+    "external_action_release",
+    "external_action_added"
+  ],
+  "release": "Guide to Pharmacology 2026.3.1; DGIdb 5 (API, Oct 2026); ChEMBL REST API (Oct 2026)",
+  "backup": "backup_ACTS_ON_properties_before_write.csv",
+  "undo": "undo_external_properties.cypher"
+}

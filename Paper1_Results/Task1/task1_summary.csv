@@ -1,0 +1,12 @@
+﻿group,direction,n_genes,pct_of_group,pct_of_all_6222
+fibrosis_only,all,2023,100.0,32.5
+fibrosis_only,positive,1040,51.4,16.7
+fibrosis_only,negative,983,48.6,15.8
+inflammation_only,all,2377,100.0,38.2
+inflammation_only,positive,2042,85.9,32.8
+inflammation_only,negative,335,14.1,5.4
+shared,all,1822,100.0,29.3
+shared,positive (both up),1408,77.3,22.6
+shared,negative (both down),384,21.1,6.2
+shared,"discordant (fib up, inf down)",0,0.0,0.0
+shared,"discordant (fib down, inf up)",30,1.6,0.5

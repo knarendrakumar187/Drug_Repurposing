@@ -1,0 +1,10 @@
+field,drugs_with_value,drugs_in_graph,percent
+drug name,10862,12025,90.3
+molecule type,11623,12025,96.7
+clinical phase,9902,12025,82.3
+approved flag,9902,12025,82.3
+withdrawn flag,11623,12025,96.7
+canonical SMILES,9036,12025,75.1
+InChI key,9069,12025,75.4
+formula,1965,12025,16.3
+molecular weight,1945,12025,16.2

@@ -1,0 +1,298 @@
+Drug_ID,Drug,Gene_ID,Gene,action_label,push,direction_source,graph_label,paper1_group,trajectory_cluster,progression_class
+CHEMBL192,SILDENAFIL,ENSG00000114770,ABCC5,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL160,CYCLOSPORINE,ENSG00000118777,ABCG2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL396298,ELACRIDAR,ENSG00000118777,ABCG2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL395280,CHEMBL395280,ENSG00000087085,ACHE,Inhibitor / Inhibition | INHIBITOR,down,external: GtoPdb;ChEMBL,TARGET,shared_positive,C1,shared
+CHEMBL148169,IK-682,ENSG00000151694,ADAM17,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL431770,ISTRADEFYLLINE,ENSG00000163485,ADORA1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL629,AMITRIPTYLINE,ENSG00000120907,ADRA1A,Antagonist / Antagonist,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1201087,CABERGOLINE,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL13852,CIRAZOLINE,ENSG00000120907,ADRA1A,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL42,CLOZAPINE,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL279516,INDORAMIN,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL6437,MIANSERIN,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL405355,NIGULDIPINE,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL445,NORTRIPTYLINE,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL85,RISPERIDONE,ENSG00000120907,ADRA1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL53,APOMORPHINE,ENSG00000150594,ADRA2A,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL1201087,CABERGOLINE,ENSG00000150594,ADRA2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL71,CHLORPROMAZINE,ENSG00000150594,ADRA2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL157138,LISURIDE,ENSG00000150594,ADRA2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL1237021,LURASIDONE,ENSG00000150594,ADRA2A,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C2,shared
+CHEMBL19236,MOXONIDINE,ENSG00000150594,ADRA2A,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL531,PERGOLIDE,ENSG00000150594,ADRA2A,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL2,PRAZOSIN,ENSG00000150594,ADRA2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL297362,XYLAZINE,ENSG00000150594,ADRA2A,Agonist / Agonist; Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL15245,YOHIMBINE,ENSG00000150594,ADRA2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL53,APOMORPHINE,ENSG00000184160,ADRA2C,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL1201087,CABERGOLINE,ENSG00000184160,ADRA2C,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL71,CHLORPROMAZINE,ENSG00000184160,ADRA2C,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL157138,LISURIDE,ENSG00000184160,ADRA2C,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL1237021,LURASIDONE,ENSG00000184160,ADRA2C,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C2,shared
+CHEMBL531,PERGOLIDE,ENSG00000184160,ADRA2C,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL297362,XYLAZINE,ENSG00000184160,ADRA2C,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL15245,YOHIMBINE,ENSG00000184160,ADRA2C,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL363387,LIDORESTAT,ENSG00000085662,AKR1B1,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL10413,ZENARESTAT,ENSG00000085662,AKR1B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL10372,ZOPOLRESTAT,ENSG00000085662,AKR1B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL81,RALOXIFENE,ENSG00000138356,AOX1,Inhibitor / Inhibition,down,external: GtoPdb,ENZYME,shared_negative,C5,shared
+CHEMBL125236,CHEMBL125236,ENSG00000169083,AR,Agonist / Agonist,up,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1582,DROMOSTANOLONE,ENSG00000169083,AR,agonist,up,external: DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL166444,METRIBOLONE,ENSG00000169083,AR,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL425863,MIBOLERONE,ENSG00000169083,AR,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL27769,STANOLONE,ENSG00000169083,AR,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL383899,ANILINOPYRIMIDINE1,ENSG00000087586,AURKA,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1614709,CENISERTIB,ENSG00000087586,AURKA,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL382301,ATOSIBAN,ENSG00000166148,AVPR1A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL521589,BAMBUTEROL,ENSG00000114200,BCHE,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,shared_negative,C5,shared
+CHEMBL1115,PYRIDOSTIGMINE,ENSG00000114200,BCHE,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL220491,BRINZOLAMIDE,ENSG00000133742,CA1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1055,CHLORTHALIDONE,ENSG00000133742,CA1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL218490,DORZOLAMIDE,ENSG00000133742,CA1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL220492,TOPIRAMATE,ENSG00000133742,CA1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL750,ZONISAMIDE,ENSG00000133742,CA1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL750,ZONISAMIDE,ENSG00000074410,CA12,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,shared_positive,C1,shared
+CHEMBL20,ACETAZOLAMIDE,ENSG00000118298,CA14,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL2105555,BENIDIPINE,ENSG00000151067,CACNA1C,blocker,down,external: DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL45816,MIBEFRADIL,ENSG00000151067,CACNA1C,Channel blocker / Antagonist | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL30008,FLUNARIZINE,ENSG00000196557,CACNA1H,Channel blocker / Antagonist | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL30008,FLUNARIZINE,ENSG00000100346,CACNA1I,Channel blocker / Antagonist | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL437526,PRALNACASAN,ENSG00000137752,CASP1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C1,shared
+CHEMBL180672,NPS-2143,ENSG00000036828,CASR,Allosteric modulator / Negative,down,external: GtoPdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL23194,SPERMINE,ENSG00000036828,CASR,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL50894,ALSTERPAULLONE,ENSG00000170312,CDK1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL258805,SU-9516,ENSG00000170312,CDK1,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL23254,PURVALANOL B,ENSG00000135446,CDK4,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL75680,ALOISINE A,ENSG00000164885,CDK5,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL428690,ALVOCIDIB,ENSG00000164885,CDK5,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL258805,SU-9516,ENSG00000164885,CDK5,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL377312,CHEMBL377312,ENSG00000149554,CHEK1,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL667,ACETYLCHOLINE,ENSG00000181072,CHRM2,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1194325,ACLIDINIUM,ENSG00000181072,CHRM2,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL629,AMITRIPTYLINE,ENSG00000181072,CHRM2,Antagonist / Antagonist,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL965,CARBAMOYLCHOLINE,ENSG00000181072,CHRM2,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1123,DICYCLOMINE,ENSG00000181072,CHRM2,Antagonist / Antagonist,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1492500,DOTHIEPIN,ENSG00000181072,CHRM2,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1201325,HEXOCYCLIUM,ENSG00000181072,CHRM2,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL11,IMIPRAMINE,ENSG00000181072,CHRM2,Antagonist / Antagonist,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL550,PILOCARPINE,ENSG00000181072,CHRM2,Agonist / Partial agonist,up,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL3833319,REVEFENACIN,ENSG00000181072,CHRM2,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL569713,SCOPOLAMINE,ENSG00000181072,CHRM2,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1900528,TIOTROPIUM,ENSG00000181072,CHRM2,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1200604,TROPICAMIDE,ENSG00000181072,CHRM2,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1187833,UMECLIDINIUM,ENSG00000181072,CHRM2,Antagonist / Antagonist,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL100622,HEXAMETHONIUM,ENSG00000120903,CHRNA2,Channel blocker /  | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL267936,MECAMYLAMINE,ENSG00000120903,CHRNA2,Channel blocker /  | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL267936,MECAMYLAMINE,ENSG00000101204,CHRNA4,Channel blocker /  | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL333826,DEQUALINIUM,ENSG00000198515,CNGA1,Channel blocker / Antagonist | blocker,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL203665,RELACATIB,ENSG00000143387,CTSK,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL50,QUERCETIN,ENSG00000138061,CYP1B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL178090,CHEMBL178090,ENSG00000255974,CYP2A6,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1089,PHENELZINE,ENSG00000138115,CYP2C8,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL17157,TERFENADINE,ENSG00000134716,CYP2J2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL941,IMATINIB,ENSG00000204580,DDR1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL53,APOMORPHINE,ENSG00000184845,DRD1,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL493,BROMOCRIPTINE,ENSG00000184845,DRD1,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1201087,CABERGOLINE,ENSG00000184845,DRD1,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL71,CHLORPROMAZINE,ENSG00000184845,DRD1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL42,CLOZAPINE,ENSG00000184845,DRD1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL59,DOPAMINE,ENSG00000184845,DRD1,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL54661,FLUPENTIXOL,ENSG00000184845,DRD1,Antagonist / Antagonist,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL726,FLUPHENAZINE,ENSG00000184845,DRD1,Antagonist / Antagonist,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL54,HALOPERIDOL,ENSG00000184845,DRD1,Antagonist / Antagonist,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL157138,LISURIDE,ENSG00000184845,DRD1,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL251940,PERICIAZINE,ENSG00000184845,DRD1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1303,ROTIGOTINE,ENSG00000184845,DRD1,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL479,THIORIDAZINE,ENSG00000184845,DRD1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1201087,CABERGOLINE,ENSG00000069696,DRD4,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL42,CLOZAPINE,ENSG00000069696,DRD4,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL59,DOPAMINE,ENSG00000069696,DRD4,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL157138,LISURIDE,ENSG00000069696,DRD4,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL1472975,PEROSPIRONE,ENSG00000069696,DRD4,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL3185133,CHEMBL3185133,ENSG00000091831,ESR1,AGONIST,up,external: ChEMBL,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL2103774,TIBOLONE,ENSG00000091831,ESR1,agonist,up,external: DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL411,DIETHYLSTILBESTROL,ENSG00000196482,ESRRG,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL4297463,CPI-1205,ENSG00000106462,EZH2,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL476186,ERIBAXABAN,ENSG00000126218,F10,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C4,fibrosis_only
+CHEMBL175247,ORLISTAT,ENSG00000169710,FASN,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1289601,LENVATINIB,ENSG00000066468,FGFR2,inhibitor,down,external: DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL1171837,PONATINIB,ENSG00000066468,FGFR2,inhibitor,down,external: DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL1171837,PONATINIB,ENSG00000068078,FGFR3,inhibitor,down,external: DGIdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL96,GAMMA-AMINOBUTYRIC ACID,ENSG00000204681,GABBR1,Agonist / Full agonist,up,external: GtoPdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL96,GAMMA-AMINOBUTYRIC ACID,ENSG00000136928,GABBR2,Agonist / Full agonist,up,external: GtoPdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL240597,CHENODIOL,ENSG00000179921,GPBAR1,Agonist / Full agonist,up,external: GtoPdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL205596,CHOLIC ACID,ENSG00000179921,GPBAR1,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL406393,DEOXYCHOLIC ACID,ENSG00000179921,GPBAR1,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL35,FUROSEMIDE,ENSG00000178623,GPR35,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C1,shared
+CHEMBL299155,TRANSTORINE,ENSG00000178623,GPR35,Agonist / Agonist,up,external: GtoPdb,TARGET,shared_positive,C1,shared
+CHEMBL190461,CANNABIDIOL,ENSG00000135898,GPR55,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C3,fibrosis_only
+CHEMBL111,RIMONABANT,ENSG00000135898,GPR55,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C3,fibrosis_only
+CHEMBL36994,ANIRACETAM,ENSG00000125675,GRIA3,Allosteric modulator / Positive,up,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL575060,GLUTAMIC ACID,ENSG00000152822,GRM1,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL575060,GLUTAMIC ACID,ENSG00000179603,GRM8,Agonist / Agonist; Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1372,OXIGLUTATIONE,ENSG00000104687,GSR,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL109,VALPROIC ACID,ENSG00000196591,HDAC2,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL94394,BUFEXAMAC,ENSG00000094631,HDAC6,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL54440,MEVASTATIN,ENSG00000113161,HMGCR,Inhibitor / Competitive | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL278315,GELDANAMYCIN,ENSG00000096384,HSP90AB1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL53,APOMORPHINE,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL493,BROMOCRIPTINE,ENSG00000102468,HTR2A,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL1201087,CABERGOLINE,ENSG00000102468,HTR2A,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL292821,CHEMBL292821,ENSG00000102468,HTR2A,Agonist / Agonist,up,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL442,ERGOTAMINE,ENSG00000102468,HTR2A,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL231068,FLIBANSERIN,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL726,FLUPHENAZINE,ENSG00000102468,HTR2A,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL46516,FLUSPIRILENE,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL51,KETANSERIN,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL157138,LISURIDE,ENSG00000102468,HTR2A,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL485253,METHYSERGIDE,ENSG00000102468,HTR2A,inhibitor,down,external: DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL6437,MIANSERIN,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL531,PERGOLIDE,ENSG00000102468,HTR2A,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL440294,PIPAMPERONE,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL267777,RITANSERIN,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL39,SEROTONIN,ENSG00000102468,HTR2A,Agonist / Full agonist,up,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL285802,ZOTEPINE,ENSG00000102468,HTR2A,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL53,APOMORPHINE,ENSG00000135914,HTR2B,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL493,BROMOCRIPTINE,ENSG00000135914,HTR2B,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL1201087,CABERGOLINE,ENSG00000135914,HTR2B,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL442,ERGOTAMINE,ENSG00000135914,HTR2B,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL157138,LISURIDE,ENSG00000135914,HTR2B,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL263881,LYSERGIDE,ENSG00000135914,HTR2B,Agonist / Biased agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL6437,MIANSERIN,ENSG00000135914,HTR2B,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL531,PERGOLIDE,ENSG00000135914,HTR2B,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL76370,TEGASEROD,ENSG00000135914,HTR2B,inhibitor,down,external: DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL15245,YOHIMBINE,ENSG00000135914,HTR2B,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL71,CHLORPROMAZINE,ENSG00000148680,HTR7,Antagonist / Inverse agonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL42,CLOZAPINE,ENSG00000148680,HTR7,Antagonist / Inverse agonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL516,CYPROHEPTADINE,ENSG00000148680,HTR7,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL54,HALOPERIDOL,ENSG00000148680,HTR7,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL14376,ILOPERIDONE,ENSG00000148680,HTR7,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL1237021,LURASIDONE,ENSG00000148680,HTR7,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL485253,METHYSERGIDE,ENSG00000148680,HTR7,inhibitor,down,external: DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL6437,MIANSERIN,ENSG00000148680,HTR7,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL85,RISPERIDONE,ENSG00000148680,HTR7,Antagonist / Inverse agonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL282199,SB-269970,ENSG00000148680,HTR7,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL2104993,VORTIOXETINE,ENSG00000148680,HTR7,Antagonist / Antagonist,down,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL708,ZIPRASIDONE,ENSG00000148680,HTR7,Antagonist / Inverse agonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL285802,ZOTEPINE,ENSG00000148680,HTR7,Antagonist / Inverse agonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL1643,RIBAVIRIN,ENSG00000178035,IMPDH2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL113,CAFFEINE,ENSG00000150995,ITPR1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C1,shared
+CHEMBL279107,"INS(1,4,5)P3",ENSG00000150995,ITPR1,Activator / ,up,external: GtoPdb,TARGET,shared_positive,C1,shared
+CHEMBL2105759,BARICITINIB,ENSG00000105639,JAK3,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL21156,CHEMBL21156,ENSG00000105639,JAK3,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,shared_positive,C2,shared
+CHEMBL296419,ASTEMIZOLE,ENSG00000143473,KCNH1,Channel blocker /  | blocker,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL11,IMIPRAMINE,ENSG00000143473,KCNH1,Channel blocker / ,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL104,CLOTRIMAZOLE,ENSG00000104783,KCNN4,Channel blocker / Inhibition | blocker,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL3545376,ERDAFITINIB,ENSG00000128052,KDR,inhibitor,down,external: DGIdb,TARGET,fibrosis_only_negative,C4,fibrosis_only
+CHEMBL1171837,PONATINIB,ENSG00000128052,KDR,inhibitor,down,external: DGIdb,TARGET,fibrosis_only_negative,C4,fibrosis_only
+CHEMBL255863,NILOTINIB,ENSG00000157404,KIT,inhibitor,down,external: DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL65061,LEUKOTRIENE_B4,ENSG00000213903,LTB4R,Agonist / Full agonist,up,external: GtoPdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL65061,LEUKOTRIENE_B4,ENSG00000213906,LTB4R2,Agonist / Partial agonist,up,external: GtoPdb,TARGET,inflammation_only_negative,,inflammation_only
+CHEMBL8706,CLORGILINE,ENSG00000189221,MAOA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL126,LINEZOLID,ENSG00000189221,MAOA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,shared_negative,C5,shared
+CHEMBL32350,PIRLINDOLE,ENSG00000189221,MAOA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,shared_negative,C5,shared
+CHEMBL972,SELEGILINE,ENSG00000189221,MAOA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL313833,TRANYLCYPROMINE,ENSG00000189221,MAOA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL126,LINEZOLID,ENSG00000069535,MAOB,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL86304,MOCLOBEMIDE,ENSG00000069535,MAOB,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,ENZYME,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL313833,TRANYLCYPROMINE,ENSG00000069535,MAOB,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL510038,CHEMBL510038,ENSG00000107643,MAPK8,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_negative,C4,fibrosis_only
+CHEMBL1231206,CHEMBL1231206,ENSG00000162889,MAPKAPK2,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL226403,CHEMBL226403,ENSG00000162889,MAPKAPK2,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL298827,(S)-THIORPHAN,ENSG00000196549,MME,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL35084,CANDOXATRIL,ENSG00000196549,MME,inhibitor,down,external: DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL434492,CANDOXATRILAT,ENSG00000196549,MME,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1908360,EVEROLIMUS,ENSG00000198793,MTOR,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL413,SIROLIMUS,ENSG00000198793,MTOR,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1201182,TEMSIROLIMUS,ENSG00000198793,MTOR,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL107251,1400W,ENSG00000007171,NOS2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL225304,PIMAGEDINE,ENSG00000007171,NOS2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL62136,T091317,ENSG00000025434,NR1H3,Agonist / Agonist,up,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL486954,CHEMBL486954,ENSG00000143257,NR1I3,Agonist / Agonist,up,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL1623,MECLIZINE,ENSG00000143257,NR1I3,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL1201396,FLUTICASONE,ENSG00000113580,NR3C1,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL2106309,HYDROCORTISONE ACEPONATE,ENSG00000113580,NR3C1,agonist | AGONIST,up,external: DGIdb;ChEMBL,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1201404,MOMETASONE,ENSG00000113580,NR3C1,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1908373,ONAPRISTONE,ENSG00000113580,NR3C1,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL273453,ALDOSTERONE,ENSG00000151623,NR3C2,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL110739,CORTICOSTERONE,ENSG00000151623,NR3C2,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL1201388,FLUDROCORTISONE,ENSG00000151623,NR3C2,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL1201396,FLUTICASONE,ENSG00000151623,NR3C2,agonist,up,external: DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL1473,FLUTICASONE PROPIONATE,ENSG00000151623,NR3C2,Agonist / Agonist,up,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL103,PROGESTERONE,ENSG00000151623,NR3C2,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL14249,ADENOSINE TRIPHOSPHATE,ENSG00000244165,P2RY11,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL779,TADALAFIL,ENSG00000128655,PDE11A,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL12856,INAMRINONE,ENSG00000152270,PDE3B,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL42126,PICLAMILAST,ENSG00000065989,PDE4A,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C1,shared
+CHEMBL428496,WORTMANNIN,ENSG00000121879,PIK3CA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C4,fibrosis_only
+CHEMBL568150,AS-605240,ENSG00000105851,PIK3CG,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL1231533,CHEMBL1231533,ENSG00000105851,PIK3CG,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL98350,LY-294002,ENSG00000105851,PIK3CG,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL50,QUERCETIN,ENSG00000105851,PIK3CG,inhibitor,down,external: DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL428496,WORTMANNIN,ENSG00000105851,PIK3CG,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL1084102,CHEMBL1084102,ENSG00000188257,PLA2G2A,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL293526,REGLITAZAR,ENSG00000186951,PPARA,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL153057,L-165041,ENSG00000112033,PPARD,Agonist / Full agonist,up,external: GtoPdb,TARGET,shared_positive,C2,shared
+CHEMBL7002,CIGLITAZONE,ENSG00000132170,PPARG,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL3707395,ELAFIBRANOR,ENSG00000132170,PPARG,agonist,up,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL375270,GW9662,ENSG00000132170,PPARG,Antagonist / Irreversible inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL6,INDOMETHACIN,ENSG00000132170,PPARG,Agonist / Partial agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL24038,RAGAGLITAZAR,ENSG00000132170,PPARG,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL293526,REGLITAZAR,ENSG00000132170,PPARG,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL165,RESVERATROL,ENSG00000132170,PPARG,Antagonist / Antagonist | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL410807,SANGLIFEHRIN A,ENSG00000196262,PPIA,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1235246,CHEMBL1235246,ENSG00000169403,PTAFR,Agonist / Full agonist,up,external: GtoPdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL606,MISOPROSTOL,ENSG00000171522,PTGER4,Agonist / Full agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL599,MELOXICAM,ENSG00000095303,PTGS1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL69998,FIROCOXIB,ENSG00000073756,PTGS2,inhibitor | INHIBITOR,down,external: DGIdb;ChEMBL,TARGET,shared_positive,C2,shared
+CHEMBL56367,NIMESULIDE,ENSG00000073756,PTGS2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL165,RESVERATROL,ENSG00000073756,PTGS2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL508583,TRODUSQUEMINE,ENSG00000196396,PTPN1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL275311,Ro-137410,ENSG00000077092,RARB,Agonist / Agonist,up,external: GtoPdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL3707313,TRIFAROTENE,ENSG00000077092,RARB,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL1230001,CHEMBL1230001,ENSG00000138207,RBP4,Inhibitor / Inhibition,down,external: GtoPdb,CARRIER,shared_negative,C4,shared
+CHEMBL2103851,AMUVATINIB,ENSG00000165731,RET,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL2105717,CABOZANTINIB,ENSG00000165731,RET,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1289601,LENVATINIB,ENSG00000165731,RET,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1171837,PONATINIB,ENSG00000165731,RET,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL559147,Y-27632,ENSG00000067900,ROCK1,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1231592,CHEMBL1231592,ENSG00000069667,RORA,Agonist / Agonist,up,external: GtoPdb,TARGET,shared_negative,C5,shared
+CHEMBL112570,CHOLESTEROL,ENSG00000069667,RORA,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_negative,C5,shared
+CHEMBL1568,FLUDARABINE,ENSG00000167325,RRM1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL420311,CHEMBL420311,ENSG00000096717,SIRT1,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,shared_negative,C4,shared
+CHEMBL349803,PIRETANIDE,ENSG00000074803,SLC12A1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL1072,BUMETANIDE,ENSG00000064651,SLC12A2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL34259,METHOTREXATE,ENSG00000173638,SLC19A1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,inflammation_only_positive,,inflammation_only
+CHEMBL617,CEPHALOTHIN,ENSG00000168065,SLC22A11,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,inflammation_only_positive,,inflammation_only
+CHEMBL421,SULFASALAZINE,ENSG00000076351,SLC46A1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL30,CIMETIDINE,ENSG00000142494,SLC47A1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL36,PYRIMETHAMINE,ENSG00000142494,SLC47A1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL415,CLOMIPRAMINE,ENSG00000103546,SLC6A2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL4297620,SOLRIAMFETOL,ENSG00000103546,SLC6A2,inhibitor,down,external: DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL285802,ZOTEPINE,ENSG00000103546,SLC6A2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C3,shared
+CHEMBL374478,RIFAMPIN,ENSG00000084453,SLCO1A2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL437765,RIFAMYCIN,ENSG00000084453,SLCO1A2,Inhibitor / Inhibition,down,external: GtoPdb,TRANSPORTER,shared_negative,C5,shared
+CHEMBL160,CYCLOSPORINE,ENSG00000134538,SLCO1B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL457,GEMFIBROZIL,ENSG00000134538,SLCO1B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL374478,RIFAMPIN,ENSG00000134538,SLCO1B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL437765,RIFAMYCIN,ENSG00000134538,SLCO1B1,Inhibitor / Inhibition,down,external: GtoPdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL160,CYCLOSPORINE,ENSG00000111700,SLCO1B3,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL457,GEMFIBROZIL,ENSG00000111700,SLCO1B3,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL374478,RIFAMPIN,ENSG00000111700,SLCO1B3,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL437765,RIFAMYCIN,ENSG00000111700,SLCO1B3,Inhibitor / Inhibition,down,external: GtoPdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL553,ERLOTINIB,ENSG00000137491,SLCO2B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL457,GEMFIBROZIL,ENSG00000137491,SLCO2B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL472,GLYBURIDE,ENSG00000137491,SLCO2B1,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL437765,RIFAMYCIN,ENSG00000137491,SLCO2B1,Inhibitor / Inhibition,down,external: GtoPdb,TRANSPORTER,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL1081312,CHEMBL1081312,ENSG00000197122,SRC,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,fibrosis_only_positive,C1,fibrosis_only
+CHEMBL261454,HTS-466284,ENSG00000106799,TGFBR1,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL41036,CHEMBL41036,ENSG00000151090,THRB,Agonist / Agonist,up,external: GtoPdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL107400,SOBETIROME,ENSG00000151090,THRB,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL41632,TIRATRICOL,ENSG00000151090,THRB,Agonist / Agonist | agonist | AGONIST,up,external: GtoPdb;DGIdb;ChEMBL,TARGET,fibrosis_only_negative,C5,fibrosis_only
+CHEMBL590799,CAMOSTAT,ENSG00000184012,TMPRSS2,Inhibitor / Inhibition | inhibitor,down,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared
+CHEMBL65,CAMPTOTHECIN,ENSG00000198900,TOP1,inhibitor,down,external: DGIdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL470670,LEVOMENTHOL,ENSG00000104321,TRPA1,Activator / Partial agonist,up,external: GtoPdb,TARGET,fibrosis_only_positive,C2,fibrosis_only
+CHEMBL470670,LEVOMENTHOL,ENSG00000144481,TRPM8,Activator / ,up,external: GtoPdb,TARGET,inflammation_only_positive,,inflammation_only
+CHEMBL190461,CANNABIDIOL,ENSG00000187688,TRPV2,Activator / Activation | activator,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C1,shared
+CHEMBL3924132,CHEMBL3924132,ENSG00000112742,TTK,Inhibitor / Inhibition,down,external: GtoPdb,TARGET,shared_positive,C3,shared
+CHEMBL432600,LEXACALCITOL,ENSG00000111424,VDR,Agonist / Agonist | agonist,up,external: GtoPdb;DGIdb,TARGET,shared_positive,C2,shared

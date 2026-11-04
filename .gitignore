@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local credentials and tool settings
+.mcp.json
+.env
+
+# Raw downloads (not redistributed): OptimusKG parquet files, CTD, MSigDB gene sets
+data/
+
+# Full BB route CSVs (up to 320 MB each); rebuild with
+#   python Paper2_Results/code/metapath_pipeline.py Run1 Run2 Run3 Run4
+# The same routes are in the *_BB.xlsx workbooks.
+Paper2_Results/Metapath_runs/*_BB.csv

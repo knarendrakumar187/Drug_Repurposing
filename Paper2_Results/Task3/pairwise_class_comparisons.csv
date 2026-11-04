@@ -1,0 +1,4 @@
+Comparison,%A,%B,Odds ratio,OR_CI_low,OR_CI_high,Fisher_p,BH_FDR
+fibrosis_only vs inflammation_only,23.3,18.7,1.321,1.139,1.533,0.0001924379969156344,0.0002886569953734516
+shared vs inflammation_only,26.1,18.7,1.539,1.326,1.788,9.941624853508236e-09,2.982487456052471e-08
+fibrosis_only vs shared,23.3,26.1,0.858,0.739,0.997,0.04297307695701014,0.04297307695701014

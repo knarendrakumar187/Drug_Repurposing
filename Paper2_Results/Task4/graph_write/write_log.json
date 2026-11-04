@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "mode": "apply",
+  "links_written": 2087,
+  "planned": 2087,
+  "drugs": 138,
+  "diseases": 866,
+  "skipped": {
+    "skip: disease not in graph": 172
+  },
+  "before": {
+    "nodes": 126999,
+    "rels": 35158167,
+    "treats": 57601,
+    "treats_added": 0
+  },
+  "after": {
+    "nodes": 126999,
+    "rels": 35160254,
+    "treats": 59688,
+    "treats_added": 2087
+  },
+  "links_match_plan": true,
+  "relationship_types_unchanged": "TREATS already existed; no new relationship type",
+  "chembl_release": "ChEMBL_37"
+}

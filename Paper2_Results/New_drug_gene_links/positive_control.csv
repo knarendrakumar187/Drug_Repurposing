@@ -1,0 +1,9 @@
+source,graph links tested,n,found by source,% found
+GtoPdb,all graph links,8948,736,8.2
+GtoPdb,pharmacological graph links,4987,696,14.0
+DGIdb,all graph links,8948,1539,17.2
+DGIdb,pharmacological graph links,4987,1167,23.4
+ChEMBL,all graph links,8948,1035,11.6
+ChEMBL,pharmacological graph links,4987,1033,20.7
+OpenTargets,all graph links,8948,1025,11.5
+OpenTargets,pharmacological graph links,4987,1023,20.5

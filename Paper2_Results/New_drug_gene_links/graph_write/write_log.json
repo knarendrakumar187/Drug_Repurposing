@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-21",
+  "links_written": 5216,
+  "external_drug_nodes_created": 519,
+  "before": {
+    "drugs": 12025,
+    "acts_on": 20674,
+    "nodes": 126244,
+    "rels": 35132831,
+    "external_drugs": 0,
+    "external_links": 0
+  },
+  "after": {
+    "drugs": 12025,
+    "acts_on": 20674,
+    "nodes": 126763,
+    "rels": 35138047,
+    "external_drugs": 519,
+    "external_links": 5216
+  },
+  "ACTS_ON_unchanged": true,
+  "Drug_count_unchanged": true,
+  "links_match_file": true,
+  "relationship_type": "EXTERNAL_ACTS_ON",
+  "new_node_label": "ExternalDrug",
+  "release": "GtoPdb 2026.3.1; DGIdb 5 (interactions.tsv, downloaded Oct 2026); ChEMBL REST API (Oct 2026); OpenTargets Open Targets Platform 26.09",
+  "undo": "undo_new_links.cypher  (or: python Paper2_Results/code/write_new_links_to_graph.py --undo)"
+}

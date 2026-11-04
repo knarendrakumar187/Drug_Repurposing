@@ -1,0 +1,4 @@
+progression_class,pairs,genes,genes_with_no_drug_before
+fibrosis_only,1813,268,113
+inflammation_only,1623,219,89
+shared,1780,280,117

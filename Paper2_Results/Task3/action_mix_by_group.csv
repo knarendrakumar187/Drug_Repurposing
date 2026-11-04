@@ -1,0 +1,8 @@
+paper1_group,edges,pct_enzyme_transporter_carrier,top enzyme/transporter genes
+fibrosis_only_negative,3675,45.2,"ALB, CYP3A5, CYP2C8, SLCO1B1"
+fibrosis_only_positive,1865,8.4,"ABCC1, PTGS1, ABCC5, NME2"
+inflammation_only_negative,625,20.8,"CYP1A1, SLC16A1, FPGS, CACNB2"
+inflammation_only_positive,2875,17.4,"CYP3A7, SLC15A1, SLC22A11, CYP1B1"
+shared_discordant_fib_negative,14,42.9,"UGT2B10, SCARB1"
+shared_negative,2188,57.4,"CYP1A2, CYP2C19, ABCG2, CYP2E1"
+shared_positive,2922,7.6,"ABCC4, PTGS2, SLCO2A1, DCK"

@@ -1,0 +1,8 @@
+{
+  "run": "Run1_onlyconsistent_top23_BB",
+  "drugs_with_BB_routes": 96,
+  "drugs_treating_a_liver_disease": 13,
+  "removed_liver_contraindicated": 0,
+  "final_drugs": 13,
+  "stage_table_drugs": 13
+}

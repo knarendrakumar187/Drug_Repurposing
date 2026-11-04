@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "relabelled_as_Drug": 519,
+  "before": {
+    "drugs": 12025,
+    "acts_on": 20674,
+    "nodes": 126763,
+    "rels": 35138047,
+    "external_drugs": 519,
+    "external_links": 5216
+  },
+  "after": {
+    "drugs": 12544,
+    "acts_on": 20674,
+    "nodes": 126763,
+    "rels": 35138047,
+    "external_drugs": 519,
+    "external_links": 5216
+  }
+}
