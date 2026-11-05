@@ -163,10 +163,10 @@ def main():
     drv = GraphDatabase.driver(os.environ.get("NEO4J_URI", "bolt://localhost:7687"),
                                auth=(os.environ.get("NEO4J_USERNAME", "neo4j"), password()))
     rows = []
-    with drv.session(database="neo4j") as ses:
+    with drv.session(database=os.environ.get("NEO4J_DATABASE", "neo4j")) as ses:
         if not ses.run("MATCH ()-[r:IMPLICATED_IN]->(:Disease {node_id:$d}) RETURN count(r) > 0 AS ok",
                        d=NAFLD).single()["ok"]:
-            raise SystemExit("No Pathway -IMPLICATED_IN-> NAFLD links. Run build_pathway_nafld_links.py --load first.")
+            raise SystemExit("No Pathway -IMPLICATED_IN-> NAFLD links. Complete scripts/rebuild_graph.py first; see docs/REBUILD.md.")
         known = {r["id"]: r["n"] for r in ses.run(
             """UNWIND $ids AS id MATCH (d:Drug {node_id: id})
                OPTIONAL MATCH (d)-[:TREATS|OFF_LABEL_FOR]->(x:Disease) WHERE x.node_id IN $liver

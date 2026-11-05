@@ -40,11 +40,11 @@ LINK = {"TREATS": "treats", "OFF_LABEL_FOR": "off-label for", "CONTRAINDICATED_I
 
 
 def cy(stmt, params, pw):
-    h = {"Authorization": "Basic " + base64.b64encode(f"neo4j:{pw}".encode()).decode(),
+    h = {"Authorization": "Basic " + base64.b64encode(f"{os.environ.get('NEO4J_USERNAME', 'neo4j')}:{pw}".encode()).decode(),
          "Content-Type": "application/json", "Accept": "application/json"}
     body = json.dumps({"statement": stmt, "parameters": params, "accessMode": "Read"}).encode()
     r = json.load(urllib.request.urlopen(urllib.request.Request(
-        os.environ.get("NEO4J_HTTP", "http://127.0.0.1:7474") + "/db/neo4j/query/v2", data=body, headers=h,
+        os.environ.get("NEO4J_HTTP", "http://127.0.0.1:7474") + "/db/" + os.environ.get("NEO4J_DATABASE", "neo4j") + "/query/v2", data=body, headers=h,
         method="POST"), timeout=600))
     if r.get("errors"):
         raise RuntimeError(r["errors"])

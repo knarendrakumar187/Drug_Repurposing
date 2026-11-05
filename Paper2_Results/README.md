@@ -6,6 +6,8 @@ Input from Paper 1 (final combined version, 10 October 2026): 6,222 progression 
 
 ## Step 0: graph preparation
 
+**Current complete rebuild:** follow [../docs/REBUILD.md](../docs/REBUILD.md). The single `scripts/rebuild_graph.py` command restores KEGG and loads all saved Paper 2 drug evidence onto the cleaned public Paper 1 import. The table below describes the historical component steps; use the current guide instead of replaying them all.
+
 The graph is the Paper 1 Neo4j graph (OptimusKG knowledge layer + expression layer + `TRACKS_FIBROSIS` / `TRACKS_INFLAMMATION` progression links), prepared for Paper 2 in these steps, in this order. Every write step has a dry run, a backup or undo file, and a write log.
 
 | # | What was added to the graph | Code | Outputs / logs |
@@ -51,7 +53,7 @@ MATCH ()-[r:EXTERNAL_ACTS_ON]->() RETURN count(r); // 0
 MATCH (d:ExternalDrug) RETURN count(d); // 0
 ```
 
-Run Tasks 1–4, direction filtering and metapath analysis only after the added links and other required evidence are loaded. Do not rerun metadata-recovery steps 0.1–0.3 unchanged against the new Paper 1 release: it already contains recovered OptimusKG fields and the older metadata writer refuses existing keys. That metadata-update issue and the missing raw-source download instructions are separate from this schema repair; the committed curated drug-link table can be loaded without re-querying those APIs.
+Run Tasks 1–4, direction filtering and metapath analysis only after the added links and other required evidence are loaded. Do not rerun metadata-recovery steps 0.1–0.3 unchanged against the new Paper 1 release: it already contains recovered OptimusKG fields and the older metadata writer refuses existing keys. For the complete current route, `scripts/rebuild_graph.py` fills the retained ChEMBL metadata gaps from `Recovery2_ChEMBL/graph_gap_properties.csv` without overwriting OptimusKG values. Rebuilding from the committed evidence does not need new API searches or their missing historical raw downloads.
 
 Tests (Python environment from `requirements.txt`):
 

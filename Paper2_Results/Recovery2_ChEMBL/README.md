@@ -119,3 +119,8 @@ uv run --with neo4j --with pandas python scripts/paper2_recovery_chembl_report.p
 Recovery 1 must run first: this reads its `drug_metadata.csv` to know where
 OptimusKG is silent. That is a one-way dependency — Recovery 1 does not read
 anything of Recovery 2's.
+
+
+## Retained graph gap-fill input
+
+`graph_gap_properties.csv` contains the 28 ChEMBL phase values and 16 recovered names previously written to the graph, with their `ChEMBL` field provenance. These values were recovered from the verified pre-removal drug-subgraph backup (SHA-256 `bace5b7016f2f6fa542f6ae5ccf7588d1e39df5821d1b1599619f88aeb4453de`), rather than fetched anew from a changing API. They restore only what the cleaned Paper 1 release omits. The backup did not retain an official ChEMBL release identifier for these fields; no version is inferred. The current rebuild preserves all existing OptimusKG metadata and checks these values against the graph before committing.

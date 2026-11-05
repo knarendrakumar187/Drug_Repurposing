@@ -2,7 +2,9 @@
 
 Code and results for Paper 2: knowledge-graph-based drug repurposing for liver fibrosis progression. The study ranks approved and clinical-stage drugs that reach stage-associated liver fibrosis genes through the knowledge graph, keeping only drugs whose action opposes the direction of the disease-associated change.
 
-**Start with [Paper2_Results/README.md](Paper2_Results/README.md).** It lists every step (graph preparation, Tasks 1–4, the direction filter, the metapath B/BB analysis and the final ranking) with its numbers, code and output files.
+**To rebuild from the public Paper 1 graph, start with [docs/REBUILD.md](docs/REBUILD.md).** All required graph-restoration code is in this repository; KEGG/CTD source inputs remain local.
+
+**For the analysis steps, see [Paper2_Results/README.md](Paper2_Results/README.md).** It lists every step (graph preparation, Tasks 1–4, the direction filter, the metapath B/BB analysis and the final ranking) with its numbers, code and output files.
 
 ## Built on Paper 1
 
@@ -24,7 +26,7 @@ The eight Paper 1 result files that the Paper 2 code reads are copied here at th
 | `Paper1_Results/Task2/task2_gene_clusters.csv` | Task 1 (clusters C1–C5) |
 | `Paper1_Results/Task4/task4_all_significant.csv` | Task 4 |
 
-Graph-preparation steps 0.6 and 0.7 (KEGG/Hallmark pathways and pathway–NAFLD links) were made with scripts in the Paper 1 repository; the Paper 2 README links to them.
+The current reconstruction restores the omitted KEGG content using `scripts/restore_kegg.py`, called by `scripts/rebuild_graph.py`. No Paper 1 checkout or OptimusKG parquet download is needed for this route.
 
 ## Layout
 
