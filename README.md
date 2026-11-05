@@ -8,7 +8,7 @@ Code and results for Paper 2: knowledge-graph-based drug repurposing for liver f
 
 This work uses the progression genes and the knowledge graph from the companion study (Paper 1):
 
-- **Paper 1 repository:** https://github.com/nissankararaoThanvitha/liver_graph
+- **Paper1 repository:** https://github.com/nissankararaoThanvitha/liver_graph
 - **Knowledge graph:** GitHub release [graph-export-2026-11-03](https://github.com/nissankararaoThanvitha/liver_graph/releases/tag/graph-export-2026-11-03) of that repository (126,999 nodes and 35,160,254 relationships in the full graph; the public release leaves out the KEGG pathways, as explained there).
 
 The eight Paper 1 result files that the Paper 2 code reads are copied here at the same paths, unchanged, so the code runs as it is:
