@@ -13,13 +13,53 @@ The graph is the Paper 1 Neo4j graph (OptimusKG knowledge layer + expression lay
 | 0.1 | **Drug metadata and drug–gene evidence recovered from OptimusKG** (fields not loaded when the graph was built: SMILES, molecule type, phase, sources per edge, mechanism text, reference URLs) | `scripts/paper2_recover_optimuskg_evidence.py`, `scripts/paper2_recovery_optimuskg_report.py` | `Recovery1_OptimusKG/` |
 | 0.2 | **Missing drug metadata filled from ChEMBL** (kept separate from 0.1; OptimusKG values take precedence) | `scripts/paper2_fetch_chembl_gaps.py`, `scripts/paper2_recovery_chembl_report.py` | `Recovery2_ChEMBL/` |
 | 0.3 | 0.1 + 0.2 written onto Drug nodes and `ACTS_ON` edges (new properties only, never overwrites) | `scripts/paper2_integrate_recovered_evidence.py`, `scripts/paper2_write_recovered_to_graph.py` (`--apply`, `--rollback`) | |
-| 0.4 | **New drug–gene links from ChEMBL, DGIdb, GtoPdb and Open Targets** (approved/clinical drugs with a curated drug–target source): **5,216 `ACTS_ON` links and 519 new Drug nodes**, written 21 Oct 2026. The links carry `layer = 'external (Idea 4)'` (the label stored in the graph), `sources`, `action_labels`, `push` (direction) and `mechanism`. Graph went from 126,244 nodes / 35,132,831 relationships to 126,763 / 35,138,047. | `code/new_links_search.py` → `code/new_links_report.py` → `code/write_new_links_to_graph.py` | `New_drug_gene_links/` (`summary.md`, `numbers.json` with source releases: GtoPdb 2026.3.1, DGIdb 5, ChEMBL REST API Oct 2026, Open Targets 26.09; `graph_write/write_log.json`, `undo_new_links.cypher`) |
+| 0.4 | **New drug–gene links from ChEMBL, DGIdb, GtoPdb and Open Targets** (approved/clinical drugs with a curated drug–target source): **5,216 `ACTS_ON` links and 519 new Drug nodes**, historical run: 21 Oct 2026; the current writer creates the final schema directly. The links carry `layer = 'external (Idea 4)'` (the label stored in the graph), `sources`, `action_labels`, `push` (direction) and `mechanism`. Graph went from 126,244 nodes / 35,132,831 relationships to 126,763 / 35,138,047. | `code/new_links_search.py` → `code/new_links_report.py` → `code/write_new_links_to_graph.py` | `New_drug_gene_links/` (`summary.md`, `numbers.json` with source releases: GtoPdb 2026.3.1, DGIdb 5, ChEMBL REST API Oct 2026, Open Targets 26.09; `graph_write/write_log.json`, `undo_new_links.cypher`) |
 | 0.5 | **Drug action directions from GtoPdb/DGIdb/ChEMBL** for OptimusKG links that had none (TARGET/ENZYME/TRANSPORTER/CARRIER): added as `external_action_*` properties on 297 existing `ACTS_ON` links (the `action` field is unchanged), written 21 Oct 2026 | `code/external_action_check.py` → `code/write_external_directions_to_graph.py` | `External_action_check/` (lookup, positive control, `graph_write/`), `Task7_external_layer/external_layer_links.csv` (the 297 links written) |
 | 0.6 | **KEGG (legacy) and Hallmark pathways** from MSigDB 2024.1, the same files Paper 1 used for enrichment (the graph had only Reactome) | [`scripts/add_msigdb_pathways.py`](https://github.com/nissankararaoThanvitha/liver_graph/blob/main/scripts/add_msigdb_pathways.py) (Paper 1 repository) | [`data/graph_msigdb/`](https://github.com/nissankararaoThanvitha/liver_graph/tree/main/data/graph_msigdb) in the Paper 1 repository (Hallmark rows; KEGG rows are not redistributed) |
 | 0.7 | **Pathway → NAFLD links** (`IMPLICATED_IN`), kept only when Paper 1 enrichment (BH-FDR < 0.05, fibrosis groups) **and** CTD (NAFLD, MESH:D065626) agree: 89 links | [`scripts/build_pathway_nafld_links.py`](https://github.com/nissankararaoThanvitha/liver_graph/blob/main/scripts/build_pathway_nafld_links.py) (Paper 1 repository; needs `CTD_diseases_pathways.csv.gz` in `data/ctd/`) | [`data/graph_pathway_disease/`](https://github.com/nissankararaoThanvitha/liver_graph/tree/main/data/graph_pathway_disease) in the Paper 1 repository |
 | 0.8 | **Drug → disease indications for the drugs added in 0.4** (they came with drug–gene links only): ChEMBL_37 indications, matched by ChEMBL ID or exact name, written as **2,087 `TREATS` links** (138 drugs, 866 diseases already in the graph; 172 indications whose disease ID is not in the graph skipped). Same meaning as OptimusKG's TREATS (an indication at any clinical phase); each link carries `source = 'ChEMBL indication'`, `layer = 'ChEMBL indication (added drugs)'` and its highest phase. Written 3 Nov 2026. | `code/task4_added_drug_indications.py` → `code/write_added_drug_indications_to_graph.py` (`--apply`, `--undo`) | `Task4/added_drug_*`, `Task4/graph_write/` |
 
-**Final graph (checked 3 Nov 2026):** 126,999 nodes; 35,160,254 relationships; 15 relationship types (the 14 of Paper 1 plus `IMPLICATED_IN`). Paper 1's figure (126,763 / 35,138,047) is the graph after step 0.4; steps 0.6–0.8 add 236 Pathway nodes, 20,031 `IN_PATHWAY` links, 89 `IMPLICATED_IN` links and 2,087 `TREATS` links.
+**Starting graph:** Paper 1 release `graph-export-2026-11-05`: 126,480 nodes and 35,152,951 relationships in the full graph. Its public export excludes KEGG and contains 126,294 nodes and 35,140,166 relationships. The retained pathway additions (steps 0.6–0.7) are already present except the explicitly excluded KEGG portions; do not add them twice. Adding 519 drugs, 5,216 drug–gene links and 2,087 indications gives 126,999 nodes / 35,160,254 relationships in the full Paper 2 graph (public graph without KEGG: 126,813 / 35,147,469). Historical logs below record the earlier execution order. These expected counts require loading all the corresponding evidence; verify actual counts after rebuilding.
+
+### Final drug schema
+
+Use a **separate Paper 2 database**, imported from the cleaned Paper 1 release. New drug nodes have the `Drug` label and drug–gene evidence uses `ACTS_ON`, so Tasks 2–4 and the metapath queries can see the added links. Source attribution remains in properties (`sources`, `source_detail`, `evidence`, `layer`, `release`, action labels and direction); evidence relationships are not merged by their endpoints. The provenance string `external (Idea 4)` remains for compatibility with the existing input tables and analysis filters.
+
+From the repository root, set `NEO4J_URI`, `NEO4J_DATABASE`, `NEO4J_USERNAME` and `NEO4J_PASSWORD` for the **Paper 2** database. Stop other graph writers. Load the committed, curated evidence tables (the default invocation is read-only):
+
+```bash
+python Paper2_Results/code/write_new_links_to_graph.py
+python Paper2_Results/code/write_new_links_to_graph.py --apply --backup /path/outside/repo/paper2-drugs-before.json --out /path/outside/repo/paper2-drug-load
+python Paper2_Results/code/write_external_directions_to_graph.py --apply
+python Paper2_Results/code/write_added_drug_indications_to_graph.py --apply
+```
+
+The first loader writes and verifies all links in one transaction and preserves every existing drug node and drug–gene evidence record. It refuses missing genes and input pairs collapsed by alias mapping. As in the historical writer, the first input row for a new drug supplies its node metadata; every link retains its own stage and evidence fields. A repeated load with matching evidence makes no changes. Its scoped `--undo --backup /new/backup.json` removes only this loader's layer and drug nodes left isolated; drugs with other relationships remain. The older direction/indication writers still use the HTTP endpoint `127.0.0.1:7474`, database `neo4j`; configure/inspect those writers separately before using a differently addressed Paper 2 instance. They are not changed by this schema repair.
+
+**Existing legacy Paper 2 database:** if it already contains `EXTERNAL_ACTS_ON` or `ExternalDrug`, convert it instead of replaying the loader:
+
+```bash
+python scripts/unify_drug_schema.py
+python scripts/unify_drug_schema.py --apply --backup /path/outside/repo/paper2-legacy-drugs-before.json
+```
+
+Conversion copies every relationship separately, preserves all endpoint and property values, records migration provenance, and removes only the auxiliary `ExternalDrug` label. Backup is mandatory for changes. Preservation checks run inside the transaction; failures roll back and a repeated conversion makes no changes. A relationship-type token can remain listed in Neo4j after its last relationship is removed; check actual relationship counts:
+
+```cypher
+MATCH (d:Drug)-[r:ACTS_ON]->(:Gene) RETURN count(r); // 25,890 after the full added layer
+MATCH ()-[r:EXTERNAL_ACTS_ON]->() RETURN count(r); // 0
+MATCH (d:ExternalDrug) RETURN count(d); // 0
+```
+
+Run Tasks 1–4, direction filtering and metapath analysis only after the added links and other required evidence are loaded. Do not rerun metadata-recovery steps 0.1–0.3 unchanged against the new Paper 1 release: it already contains recovered OptimusKG fields and the older metadata writer refuses existing keys. That metadata-update issue and the missing raw-source download instructions are separate from this schema repair; the committed curated drug-link table can be loaded without re-querying those APIs.
+
+Tests (Python environment from `requirements.txt`):
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The database tests are opt-in. Set `TEST_NEO4J_URI=bolt://127.0.0.1:17689` only for a disposable, authentication-disabled local import of the cleaned public Paper 1 release (126,294 nodes / 35,140,166 relationships). They load and verify all 5,216 links and 519 drugs, test their full legacy conversion, and remove those test additions afterward. The tests reject a database with different starting counts; they never target the live Paper 1 database.
 
 **Sources (for Methods):** none of the 5,216 links of step 0.4 is TTD-only; all have curated drug-target evidence from ChEMBL, DGIdb, GtoPdb and/or Open Targets. In 701 links DGIdb names TTD as its own upstream source, so Methods may say "DGIdb (which aggregates sources including TTD)".
 

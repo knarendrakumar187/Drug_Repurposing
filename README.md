@@ -9,7 +9,7 @@ Code and results for Paper 2: knowledge-graph-based drug repurposing for liver f
 This work uses the progression genes and the knowledge graph from the companion study (Paper 1):
 
 - **Paper 1 repository:** https://github.com/nissankararaoThanvitha/liver_graph
-- **Knowledge graph:** GitHub release [graph-export-2026-11-03](https://github.com/nissankararaoThanvitha/liver_graph/releases/tag/graph-export-2026-11-03) of that repository (126,999 nodes and 35,160,254 relationships in the full graph; the public release leaves out the KEGG pathways, as explained there).
+- **Knowledge graph:** GitHub release [graph-export-2026-11-05](https://github.com/nissankararaoThanvitha/liver_graph/releases/tag/graph-export-2026-11-05) of that repository (126,480 nodes and 35,152,951 relationships in the starting full graph; the public release leaves out the KEGG pathways, as explained there).
 
 The eight Paper 1 result files that the Paper 2 code reads are copied here at the same paths, unchanged, so the code runs as it is:
 
@@ -33,6 +33,8 @@ Graph-preparation steps 0.6 and 0.7 (KEGG/Hallmark pathways and pathway–NAFLD 
 | `Paper2_Results/` | Results of every step, and the analysis code in `Paper2_Results/code/` |
 | `scripts/` | Graph-preparation scripts for drug metadata recovered from OptimusKG and ChEMBL (steps 0.1–0.3), and the metapath runners used by `Paper2_Results/code/metapath_pipeline.py` |
 | `Paper1_HighConfidence/`, `Paper1_Results/` | The Paper 1 input files listed above |
+
+Use the cleaned Paper 1 release as the starting graph; Paper 2 adds its drug evidence to a separate database. The schema-correct loader and legacy-conversion commands are documented under “Final drug schema” in `Paper2_Results/README.md`.
 
 ## Running
 
