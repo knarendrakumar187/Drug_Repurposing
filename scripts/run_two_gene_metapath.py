@@ -97,7 +97,7 @@ def main():
 
     drv = GraphDatabase.driver(os.environ.get("NEO4J_URI", "bolt://localhost:7687"),
                                auth=(os.environ.get("NEO4J_USERNAME", "neo4j"), password()))
-    with drv.session(database="neo4j") as ses:
+    with drv.session(database=os.environ.get("NEO4J_DATABASE", "neo4j")) as ses:
         pw = pd.DataFrame(ses.run(PATHWAYS, nafld=NAFLD, smin=SIZE_MIN, smax=SIZE_MAX).data()).set_index("id")
         print(f"NAFLD pathways of size {SIZE_MIN}-{SIZE_MAX}: {len(pw)}")
         rows = []
