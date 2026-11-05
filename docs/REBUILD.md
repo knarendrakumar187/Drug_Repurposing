@@ -49,7 +49,7 @@ The tested input checksums are:
 
 These identify retained files, not official release identifiers. Retain matching inputs for exact reproduction; future source downloads may differ.
 
-Keep both inputs outside version control (or under the ignored `data/` directory). **Do not upload KEGG data or generated KEGG graph exports.** The rebuild reads the GMT directly; it does not need the Hallmark GMT because Hallmark is already in the release. It matches CTD against the committed Paper 1 enrichment output. Downloaded CTD data may change; retain the file used. The preflight refuses inputs that do not reproduce 186 KEGG pathways, 12,724 gene memberships and 61 KEGG–NAFLD links. Input SHA-256 values are recorded in the checkpoint.
+Keep both inputs outside version control (or under the ignored `data/` directory). **Do not upload KEGG data or generated KEGG graph exports.** The rebuild reads the GMT directly; it does not need the Hallmark GMT because Hallmark is already in the release. It matches CTD against the committed Paper 1 enrichment output. Downloaded CTD data may change; retain the file used. The preflight refuses inputs that do not reproduce 186 KEGG pathways, 12,724 gene memberships and 61 KEGG–NAFLD links. Input SHA-256 values are recorded in the checkpoint, but are not currently enforced against the reference hashes above. Matching counts alone do not prove identical inputs; compare both hashes before applying an exact-reproduction run.
 
 ## 3. Plan and rebuild all additions
 

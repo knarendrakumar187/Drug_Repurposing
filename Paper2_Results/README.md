@@ -4,17 +4,19 @@ This folder holds the code and results of the Paper 2 analysis: preparing the kn
 
 Input from Paper 1 (final combined version, 10 October 2026): 6,222 progression genes (3,845 fibrosis-associated, 4,199 ordered disease-group-associated, 1,822 shared; fibrosis-only 2,023, disease-group-only 2,377). Tier 1/2/3 = 447 / 1,403 / 1,995; 23-gene shortlist. The second axis is the **ordered disease-group** axis (control/NAFL/NASH); some file and column names call it "inflammation".
 
-## Step 0: graph preparation
+## Current graph preparation
 
 **Current complete rebuild:** follow [../docs/REBUILD.md](../docs/REBUILD.md). The single `scripts/rebuild_graph.py` command restores KEGG and loads all saved Paper 2 drug evidence onto the cleaned public Paper 1 import. The table below describes the historical component steps; use the current guide instead of replaying them all.
 
-The graph is the Paper 1 Neo4j graph (OptimusKG knowledge layer + expression layer + `TRACKS_FIBROSIS` / `TRACKS_INFLAMMATION` progression links), prepared for Paper 2 in these steps, in this order. Every write step has a dry run, a backup or undo file, and a write log.
+### Historical graph-preparation record — not a current run sequence
+
+The table records how the earlier analysis graph was prepared and where its evidence and logs are retained. The November 5 Paper 1 release already contains the OptimusKG metadata and Hallmark/Reactome portions; the current complete rebuild restores the missing KEGG content and adds the saved Paper 2 drug evidence. Do not replay steps 0.1–0.8 over that release.
 
 | # | What was added to the graph | Code | Outputs / logs |
 |---|---|---|---|
 | 0.1 | **Drug metadata and drug–gene evidence recovered from OptimusKG** (fields not loaded when the graph was built: SMILES, molecule type, phase, sources per edge, mechanism text, reference URLs) | `scripts/paper2_recover_optimuskg_evidence.py`, `scripts/paper2_recovery_optimuskg_report.py` | `Recovery1_OptimusKG/` |
 | 0.2 | **Missing drug metadata filled from ChEMBL** (kept separate from 0.1; OptimusKG values take precedence) | `scripts/paper2_fetch_chembl_gaps.py`, `scripts/paper2_recovery_chembl_report.py` | `Recovery2_ChEMBL/` |
-| 0.3 | 0.1 + 0.2 written onto Drug nodes and `ACTS_ON` edges (new properties only, never overwrites) | `scripts/paper2_integrate_recovered_evidence.py`, `scripts/paper2_write_recovered_to_graph.py` (`--apply`, `--rollback`) | |
+| 0.3 | 0.1 + 0.2 written onto Drug nodes and `ACTS_ON` edges (new properties only, never overwrites) | `scripts/paper2_integrate_recovered_evidence.py`, `scripts/paper2_write_recovered_to_graph.py` (historical; do not replay on the current release) | |
 | 0.4 | **New drug–gene links from ChEMBL, DGIdb, GtoPdb and Open Targets** (approved/clinical drugs with a curated drug–target source): **5,216 `ACTS_ON` links and 519 new Drug nodes**, historical run: 21 Oct 2026; the current writer creates the final schema directly. The links carry `layer = 'external (Idea 4)'` (the label stored in the graph), `sources`, `action_labels`, `push` (direction) and `mechanism`. Graph went from 126,244 nodes / 35,132,831 relationships to 126,763 / 35,138,047. | `code/new_links_search.py` → `code/new_links_report.py` → `code/write_new_links_to_graph.py` | `New_drug_gene_links/` (`summary.md`, `numbers.json` with source releases: GtoPdb 2026.3.1, DGIdb 5, ChEMBL REST API Oct 2026, Open Targets 26.09; `graph_write/write_log.json`, `undo_new_links.cypher`) |
 | 0.5 | **Drug action directions from GtoPdb/DGIdb/ChEMBL** for OptimusKG links that had none (TARGET/ENZYME/TRANSPORTER/CARRIER): added as `external_action_*` properties on 297 existing `ACTS_ON` links (the `action` field is unchanged), written 21 Oct 2026 | `code/external_action_check.py` → `code/write_external_directions_to_graph.py` | `External_action_check/` (lookup, positive control, `graph_write/`), `Task7_external_layer/external_layer_links.csv` (the 297 links written) |
 | 0.6 | **KEGG (legacy) and Hallmark pathways** from MSigDB 2024.1, the same files Paper 1 used for enrichment (the graph had only Reactome) | [`scripts/add_msigdb_pathways.py`](https://github.com/nissankararaoThanvitha/liver_graph/blob/main/scripts/add_msigdb_pathways.py) (Paper 1 repository) | [`data/graph_msigdb/`](https://github.com/nissankararaoThanvitha/liver_graph/tree/main/data/graph_msigdb) in the Paper 1 repository (Hallmark rows; KEGG rows are not redistributed) |
@@ -23,20 +25,15 @@ The graph is the Paper 1 Neo4j graph (OptimusKG knowledge layer + expression lay
 
 **Starting graph:** Paper 1 release `graph-export-2026-11-05`: 126,480 nodes and 35,152,951 relationships in the full graph. Its public export excludes KEGG and contains 126,294 nodes and 35,140,166 relationships. The retained pathway additions (steps 0.6–0.7) are already present except the explicitly excluded KEGG portions; do not add them twice. Adding 519 drugs, 5,216 drug–gene links and 2,087 indications gives 126,999 nodes / 35,160,254 relationships in the full Paper 2 graph (public graph without KEGG: 126,813 / 35,147,469). Historical logs below record the earlier execution order. These expected counts require loading all the corresponding evidence; verify actual counts after rebuilding.
 
-### Final drug schema
+### Final drug schema and optional component tools
 
 Use a **separate Paper 2 database**, imported from the cleaned Paper 1 release. New drug nodes have the `Drug` label and drug–gene evidence uses `ACTS_ON`, so Tasks 2–4 and the metapath queries can see the added links. Source attribution remains in properties (`sources`, `source_detail`, `evidence`, `layer`, `release`, action labels and direction); evidence relationships are not merged by their endpoints. The provenance string `external (Idea 4)` remains for compatibility with the existing input tables and analysis filters.
 
-From the repository root, set `NEO4J_URI`, `NEO4J_DATABASE`, `NEO4J_USERNAME` and `NEO4J_PASSWORD` for the **Paper 2** database. Stop other graph writers. Load the committed, curated evidence tables (the default invocation is read-only):
+**For a fresh complete rebuild, use `scripts/rebuild_graph.py` and [the current guide](../docs/REBUILD.md). Do not run the component loaders afterward.** It creates `Drug` / `ACTS_ON` directly, restores KEGG, fills only the retained ChEMBL gaps, and loads directions and indications in one verified transaction.
 
-```bash
-python Paper2_Results/code/write_new_links_to_graph.py
-python Paper2_Results/code/write_new_links_to_graph.py --apply --backup /path/outside/repo/paper2-drugs-before.json --out /path/outside/repo/paper2-drug-load
-python Paper2_Results/code/write_external_directions_to_graph.py --apply
-python Paper2_Results/code/write_added_drug_indications_to_graph.py --apply
-```
+`code/write_new_links_to_graph.py` remains available for a deliberate drug-link-only operation. It requires a new backup for writes, preserves existing evidence, and uses the same first-row-per-new-drug metadata rule as the historical loader. Its undo removes only that loader’s layer and isolated added drug nodes; it is not a rollback of the complete rebuilt graph. Restore a complete graph from the retained import/backup rather than mixing partial undos.
 
-The first loader writes and verifies all links in one transaction and preserves every existing drug node and drug–gene evidence record. It refuses missing genes and input pairs collapsed by alias mapping. As in the historical writer, the first input row for a new drug supplies its node metadata; every link retains its own stage and evidence fields. A repeated load with matching evidence makes no changes. Its scoped `--undo --backup /new/backup.json` removes only this loader's layer and drug nodes left isolated; drugs with other relationships remain. The older direction/indication writers still use the HTTP endpoint `127.0.0.1:7474`, database `neo4j`; configure/inspect those writers separately before using a differently addressed Paper 2 instance. They are not changed by this schema repair.
+The older direction/indication component writers still hardcode HTTP `127.0.0.1:7474`, database `neo4j`. Do not assume that setting `NEO4J_URI` redirects them. They are retained as historical tools; the current complete rebuild uses the explicitly supplied URI/database instead. The old metadata writer’s global `--rollback` removes properties imported from Paper 1 and must not be used on the current graph.
 
 **Existing legacy Paper 2 database:** if it already contains `EXTERNAL_ACTS_ON` or `ExternalDrug`, convert it instead of replaying the loader:
 
@@ -61,13 +58,13 @@ Tests (Python environment from `requirements.txt`):
 python -m unittest discover -s tests -v
 ```
 
-The database tests are opt-in. Set `TEST_NEO4J_URI=bolt://127.0.0.1:17689` only for a disposable, authentication-disabled local import of the cleaned public Paper 1 release (126,294 nodes / 35,140,166 relationships). They load and verify all 5,216 links and 519 drugs, test their full legacy conversion, and remove those test additions afterward. The tests reject a database with different starting counts; they never target the live Paper 1 database.
+Database tests are opt-in and require a disposable public-release import. The drug-schema tests remove their test additions afterward; the full-rebuild test also requires `TEST_KEGG_GMT` and `TEST_CTD` and intentionally leaves the disposable graph fully rebuilt. See [the guide’s test section](../docs/REBUILD.md#5-checks-and-limitations) for the environment variables and starting counts. Never target the live Paper 1 graph.
 
 **Sources (for Methods):** none of the 5,216 links of step 0.4 is TTD-only; all have curated drug-target evidence from ChEMBL, DGIdb, GtoPdb and/or Open Targets. In 701 links DGIdb names TTD as its own upstream source, so Methods may say "DGIdb (which aggregates sources including TTD)".
 
 ## Analysis workflow and results — use this for the manuscript
 
-All steps use the final graph (live Neo4j, read-only). Run from the repository root with `NEO4J_PASSWORD` set; `code/run_tasks.ps1 <script> ...` runs scripts with one password prompt.
+All analysis queries use the final graph read-only; analysis scripts regenerate their output files. Use `scripts/run_analysis.py` with the explicit Bolt URI, matching HTTP address and database described in [the current guide](../docs/REBUILD.md#4-run-downstream-analyses). The table below maps the historical results to their component scripts and outputs.
 
 | Step | What was done | Result | Code | Output |
 |---|---|---|---|---|
